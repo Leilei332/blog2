@@ -155,7 +155,7 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+        url: 'https://github.com/Leilei332',
       },
       {
         name: 'Mastodon',
