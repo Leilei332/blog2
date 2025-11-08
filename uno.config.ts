@@ -40,8 +40,8 @@ export default defineConfig({
       caution: 'oklch(50.5% 0.213 27.518 / 0.8)', // red-700
     },
     fontFamily: {
-      title: ['Noto Serif CJK SC', 'Noto Serif SC', 'ui-serif', 'Georgia', 'Noto Serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
-      navbar: ['Noto Serif CJK SC', 'Noto Serif SC', 'ui-serif', 'Georgia','Noto Serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+      title: ['Snell-Black','Noto Serif CJK SC', 'Noto Serif SC', 'ui-serif', 'Georgia', 'Noto Serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+      navbar: ['STIX-Italic','Noto Serif CJK SC', 'Noto Serif SC', 'ui-serif', 'Georgia','Noto Serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
       time: ['Snell-Bold', 'ui-serif', 'Georgia','Noto Serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
       serif: ['Noto Serif CJK SC', 'Noto Serif SC', 'ui-serif', 'Georgia','Noto Serif', 'Cambria', 'Times New Roman', 'Times', 'serif'],
     },
