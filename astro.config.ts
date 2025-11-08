@@ -1,4 +1,5 @@
 import mdx from '@astrojs/mdx'
+import netlify from '@astrojs/netlify';
 import partytown from '@astrojs/partytown'
 import sitemap from '@astrojs/sitemap'
 import Compress from 'astro-compress'
@@ -17,6 +18,7 @@ import { rehypeHeadingAnchor } from './src/plugins/rehype-heading-anchor.mjs'
 import { rehypeImageProcessor } from './src/plugins/rehype-image-processor.mjs'
 import { remarkContainerDirectives } from './src/plugins/remark-container-directives.mjs'
 import { remarkLeafDirectives } from './src/plugins/remark-leaf-directives.mjs'
+
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 
 const { url: site } = themeConfig.site
@@ -28,12 +30,17 @@ const imageConfig = imageHostURL
 export default defineConfig({
   site,
   base,
-  trailingSlash: 'always', // Not recommended to change
+
+  // Not recommended to change
+  trailingSlash: 'always',
+
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport', // hover, tap, viewport, load
   },
+
   ...imageConfig,
+
   i18n: {
     locales: Object.entries(langMap).map(([path, codes]) => ({
       path,
@@ -41,6 +48,7 @@ export default defineConfig({
     })),
     defaultLocale,
   },
+
   integrations: [
     UnoCSS({
       injectReset: true,
@@ -60,6 +68,7 @@ export default defineConfig({
       SVG: false,
     }),
   ],
+
   markdown: {
     remarkPlugins: [
       remarkDirective,
@@ -89,6 +98,7 @@ export default defineConfig({
       },
     },
   },
+
   vite: {
     plugins: [
       {
@@ -103,13 +113,17 @@ export default defineConfig({
       },
     ],
   },
+
   devToolbar: {
     enabled: false,
   },
+
   // For local development
   server: {
     headers: {
       'Access-Control-Allow-Origin': 'https://giscus.app',
     },
   },
+
+  adapter: netlify(),
 })
