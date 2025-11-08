@@ -84,8 +84,8 @@ export default defineConfig({
     shikiConfig: {
       // Available themes: https://shiki.style/themes
       themes: {
-        light: 'github-light',
-        dark: 'github-dark',
+        light: 'rose-pine-dawn',
+        dark: 'rose-pine',
       },
     },
   },
