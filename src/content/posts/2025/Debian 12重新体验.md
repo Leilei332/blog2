@@ -260,7 +260,7 @@ font:
 normal = { family = "等距更纱黑体 SC", style = "Regular" }
 ```
 
-## Wezterm
+### Wezterm
 目前WezTerm虽然不在官方仓库中，但有官方debian包。此终端自带flexoki主题。
 
 使用lua文件配置：
