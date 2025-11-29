@@ -161,6 +161,10 @@ export const themeConfig: ThemeConfig = {
         name: 'Mastodon',
         url: 'https://social.vivaldi.net/@XLBilly',
       },
+      {
+        name: '以CC BY-NC-SA 4.0授权',
+        url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+      },
       // {
       //   name: 'X',
       //   url: 'https://x.com/radishzz_',
