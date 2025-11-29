@@ -116,7 +116,7 @@ export const themeConfig: ThemeConfig = {
       google: '',
       // bing webmaster tools
       // https://www.bing.com/webmasters
-      bing: '',
+      bing: 'CF9FEA0C4818C95F53E4A44F7459B153',
       // yandex webmaster
       // https://webmaster.yandex.com
       yandex: '',
