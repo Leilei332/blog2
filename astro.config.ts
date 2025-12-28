@@ -18,7 +18,6 @@ import { rehypeHeadingAnchor } from './src/plugins/rehype-heading-anchor.mjs'
 import { rehypeImageProcessor } from './src/plugins/rehype-image-processor.mjs'
 import { remarkContainerDirectives } from './src/plugins/remark-container-directives.mjs'
 import { remarkLeafDirectives } from './src/plugins/remark-leaf-directives.mjs'
-
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 
 const { url: site } = themeConfig.site
@@ -44,7 +43,7 @@ export default defineConfig({
   i18n: {
     locales: Object.entries(langMap).map(([path, codes]) => ({
       path,
-      codes: codes as [string, ...string[]],
+      codes: [...codes] as [string, ...string[]],
     })),
     defaultLocale,
   },
@@ -116,13 +115,6 @@ export default defineConfig({
 
   devToolbar: {
     enabled: false,
-  },
-
-  // For local development
-  server: {
-    headers: {
-      'Access-Control-Allow-Origin': 'https://giscus.app',
-    },
   },
 
   adapter: netlify(),

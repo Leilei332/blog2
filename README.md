@@ -50,7 +50,7 @@ Retypeset is a static blog theme based on the [Astro](https://astro.build/) fram
    cd <repository-name>
 
    # Install pnpm globally (if not already installed)
-   pnpm install -g pnpm
+   npm install -g pnpm
 
    # Install dependencies
    pnpm install
