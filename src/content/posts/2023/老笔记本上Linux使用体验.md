@@ -4,6 +4,7 @@ published: 2023-08-18
 updated: 2023-10-12
 tags: 
 - Linux
+slug: linux-on-old-laptop
 ---
 
 
