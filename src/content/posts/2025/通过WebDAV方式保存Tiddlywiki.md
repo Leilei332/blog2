@@ -1,7 +1,7 @@
 ---
 title: 通过WebDAV方式保存Tiddlywiki
 published: 2023-05-07
-updated: 2025-11-09
+updated: 2025-12-28
 tags: 
 - Tiddlywiki
 abbrlink: tiddlywiki-save-webdav
@@ -58,7 +58,12 @@ Tiddlywiki有一个官方的客户端[TiddlyDesktop]，这也是我第一次用T
 uv tool install copyparty
 mkdir tiddlywiki # 存放Tiddlywiki文件
 cd tiddlywiki
-copyparty
+```
+
+默认情况下Copyparty在处理`PUT`请求时会存到另外一个文件，而不是覆盖原文件，因此要启用`daw`选项：
+
+```sh
+copyparty -v .::A:c,daw
 ```
 
 启动后可以在[本地3923端口](http://127.0.0.1:3923)使用WebDAV保存。
