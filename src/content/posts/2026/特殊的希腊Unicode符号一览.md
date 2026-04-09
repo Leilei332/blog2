@@ -34,7 +34,9 @@ slug: special-greek-symbols
 ## ʹ͵
 名称：`GREEK NUMERAL SIGN`和`GREEK LOWER NUMERAL SIGN`
 
-希腊语中标记数字的符号，如**Αʹ**表示1，**͵Α**表示1000[^1]。对ʹ进行四种归一化后得到ʹ（`MODIFIER LETTER PRIME`），字体也通常将两者渲染为相同的外观。
+希腊语中标记数字的符号，如**Αʹ**表示1，**͵Α**表示1000[^1]。
+
+ʹ与ʹ（`MODIFIER LETTER PRIME`）为标准等价关系。
 
 ## ϜϝͶͷ
 名称：
@@ -44,7 +46,7 @@ slug: special-greek-symbols
 
 古希腊字母表字母。由于其形状像两个gamma（Γ）叠在一起，因此得名digamma（双gamma）。曾在希腊语中表示/w/发音，在希腊语中/w/发音消失后被废弃。此字母在希腊数字系统中也表示数字6，之后此用途被stigma字母（Ϛ）代替。
 
-Ͷ则是潘菲利亚方言特有的本土发展形式，同样表示/w/音，与标准 Digamma 是平行发展的关系。潘菲利亚方言保留了Digamma的使用时间比其他希腊方言更长。早期铭文中，本土形式的Ͷ用于元音后的/w/音，而标准Digamma用于其他位置。后来，标准Digamma被引入潘菲利亚，代表/v/音作为/w/的变体，而本土形式Ͷ保留给/w/音。
+Ͷ则是潘菲利亚方言特有的本土发展形式，同样表示/w/音，与标准Digamma是平行发展的关系。潘菲利亚方言保留了Digamma的使用时间比其他希腊方言更长。早期铭文中，本土形式的Ͷ用于元音后的/w/音，而标准Digamma用于其他位置。后来，标准Digamma被引入潘菲利亚，代表/v/音作为/w/的变体，而本土形式Ͷ保留给/w/音。[^7]
 
 拉丁字母F就是由Ϝ演变而来。
 
@@ -58,42 +60,49 @@ slug: special-greek-symbols
 
 剩下的字符都曾被用于修订。Ͼͼ曾被用于表示标记行位置有误，Ͻͻ用于标记错位的文本行，Ͽͽ用于表示该行后的内容要重新排序。Ͻͻ在公元前1世纪末期也用作缩写，表示自身名字与父名相同。[^2]
 
-字母Ϲ和ϲ进行NFKC或NFKD归一化后会得到Σ和σ。
+字母Ϲ和ϲ与Σ和σ分别为兼容等价关系。
 
 ## ΄
 名称：`GREEK TONOS`
 
-希腊语变音符号，表示重读。对其进行NFKC或NFKD归一化后会得到 ́（`COMBINING ACUTE ACCENT`）。
+希腊语变音符号，表示重读。与 ́（`COMBINING ACUTE ACCENT`）兼容等价。
 
 ## ;
 名称：`GREEK QUESTION MARK`
 
-希腊语中的问号。虽然与;（`SEMICOLON`）外观相同，两者严格说算与亚美尼亚语句号类似的同姓异义字符，~~但奇怪的是对其进行四种归一化后会得到;~~。官方文档推荐使用;（`SEMICOLON`）字符。
+希腊语中的问号。与;（`SEMICOLON`）为标准等价的关系。官方文档推荐使用;（`SEMICOLON`）字符。
 
 ## ·
 名称：`GREEK ANO TELEIA`
 
-希腊文中的中点符号，曾被用于表示分号，现在用法与普通中点相同。对其进行四种正常化会得到·（`MIDDLE DOT`）。[^3]
+希腊文中的中点符号，曾被用于表示分号，现在用法与普通中点相同。与·（`MIDDLE DOT`）为标准等价关系。[^3]
 
 官方文档中推荐使用·（`MIDDLE DOT`）字符。
 
 ## Ϗϗ
-希腊语και的连字，表示“和”。[^5]
+名称：`GREEK * KAI SYMBOL`
+
+希腊语και的连字，表示“和”，与&作用类似。[^5]
 
 ## ϐϑ
 名称：
 * `GREEK BETA SYMBOL`
 * `GREEK THETA SYMBOL`
 
-分别为β和θ的草书形式。
+分别为β和θ的草书形式，与原字符兼容等价。
 
 ## ϒ
 名称：`GREEK UPSILON WITH HOOK SYMBOL`
 
+
+
 ## ϕ
 名称：`GREEK PHI SYMBOL`
 
+φ的变体，被用作数学、科技符号（如直径）。
+
 ## ϖ
+
 
 ## Ϙϙ
 名称：`GREEK * LETTER ARCHAIC KOPPA`
@@ -113,10 +122,12 @@ slug: special-greek-symbols
 ### µ
 名称：`MICRO SIGN`
 
-虽然外观与μ（`GREEK SMALL LETTER MU`）一致，但编码与名称不同。有趣的是，µ的编码的位置位于Latin-1 Supplement这个区块，非常靠前。将其进行NFKC或NFKD归一化之后就会得到μ，浏览器的搜索功能也将两者视为相同字符。
+专门表示“微”计量单位的符号。虽然外观与μ（`GREEK SMALL LETTER MU`）一致，但编码与名称不同。µ的编码的位置位于Latin-1 Supplement这个区块，非常靠前。此字符与μ为兼容等价关系，浏览器的搜索功能将两者视为相同字符。
 
 ### Ω
 名称：`OHM SIGN`
+
+欧姆
 
 ### ∆
 名称：`INCREMENT`
@@ -139,3 +150,5 @@ slug: special-greek-symbols
 [^5]: <https://en.wikipedia.org/wiki/Kai_(conjunction)#Ligature>
 
 [^6]: <https://en.wikipedia.org/wiki/%CD%B2>
+
+[^7]: <https://en.wikipedia.org/wiki/%CD%B6>
