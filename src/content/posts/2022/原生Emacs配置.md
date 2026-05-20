@@ -2,7 +2,9 @@
 title: 原生Emacs配置
 published: 2022-07-03
 updated: 2022-07-17
+slug: tw2022-vanilla-emacs-config
 tags: 
+- Tiddlywiki 2022归档
 - 日志
 - Emacs
 ---

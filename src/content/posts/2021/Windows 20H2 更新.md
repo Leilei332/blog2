@@ -2,8 +2,9 @@
 title: Windows 20H2 更新
 published: 2021-10-17
 updated: 2021-10-17
+slug: tw2022-windows-20h2
 tags: 
-- 日志 2021
+- Tiddlywiki 2022归档
 - Windows
 - OS
 ---

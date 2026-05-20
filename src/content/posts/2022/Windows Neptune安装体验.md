@@ -2,7 +2,9 @@
 title: Windows Neptune安装体验
 published: 2021-11-28
 updated: 2021-12-12
+slug: tw2022-windows-neptune
 tags: 
+- Tiddlywiki 2022归档
 - 日志 2021
 - Windows
 - OS

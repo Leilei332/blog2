@@ -2,7 +2,9 @@
 title: Linux发行版体验总结
 published: 2021-10-03
 updated: 2021-11-12
+slug: tw2022-linux-distro-summary
 tags: 
+- Tiddlywiki 2022归档
 - 日志 2021
 - Linux
 ---

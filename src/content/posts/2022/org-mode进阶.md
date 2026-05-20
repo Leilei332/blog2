@@ -2,7 +2,9 @@
 title: org-mode进阶
 published: 2022-06-25
 updated: 2022-08-16
+slug: tw2022-org-mode-ext
 tags: 
+- Tiddlywiki 2022归档
 - 日志
 - 暂定
 - org-mode

@@ -2,7 +2,9 @@
 title: Spacevim配置
 published: 2022-04-27
 updated: 2022-04-29
+slug: tw2022-spacevim
 tags: 
+- Tiddlywiki 2022归档
 - 日志
 - Vim
 - 软件

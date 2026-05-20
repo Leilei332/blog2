@@ -2,7 +2,9 @@
 title: BeOS体验
 published: 2022-01-14
 updated: 2022-01-24
+slug: tw2022-beos
 tags: 
+- Tiddlywiki 2022归档
 - 日志
 - OS
 ---
