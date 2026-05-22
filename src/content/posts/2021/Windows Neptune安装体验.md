@@ -19,7 +19,8 @@ tags:
 最值得关注的就是Neptune的登录界面了，相较于Windows 2000单调的一个简陋的窗口和选择输入框，Neptune的用户可以有头像，默认的头像是一个海螺，似乎呼应了计算机语言中的shell。
 
 仔细看的话，登录屏幕上的字看上去像IE渲染网页的字，这是因为这个登录屏幕是一个基于HTML和JS的HTA应用，在WinWorld上提示说安装IE6可能让登录屏幕停止运行。
-TODO: [img[Screenshot_19991211_102543.png]]
+
+![](../_images/Screenshot_19991211_102543.png)
 
 说到用户，Neptune还有一个先进的“用户种类”特性，有四种用户，分别是Owner，Adult，Child，Guest，可以说是一个比较早的“家长控制”了。根据Winworld，Child类型用户可以控制使用时间已及屏蔽网页，而控制用户的*Windows Identities*还是HTA应用。
 

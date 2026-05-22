@@ -9,8 +9,7 @@ tags:
 - OS
 ---
 
-
-TODO: [img[belogo.jpg]]
+![](../_images/belogo.jpg)
 
 ## 🌕
 把最近的文章整理的一下，把很多已经不准备写的内容都删掉了，而且把*暂定*加了删除的选项，加了一个RevealWidget，给*Home*也加了一个timeline。

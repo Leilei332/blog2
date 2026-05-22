@@ -11,7 +11,7 @@ tags:
 ---
 
 
-TODO: [img[firefox_HZ4nbGIQv4.png]]
+![](../_images/firefox_HZ4nbGIQv4.png)
 
 目前Firefox一周用下来感觉还不错，除了有些网站不兼容意外其他方面都很不错（点名晓黑板！）。
 

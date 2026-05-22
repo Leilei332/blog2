@@ -21,7 +21,8 @@ import sympy
 from sympy.abc import x
 sympy.plot(x*3+2,(x,-10,10))
 ```
-TODO: [img[sympy一次函数]]
+
+![Sympy一次函数](../_images/sympy一次函数.png)
 
 ## 解方程
 ```python

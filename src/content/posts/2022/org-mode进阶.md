@@ -129,7 +129,8 @@ org-capture自带一个*datetree*功能，可以在org文件里生成一个通�
 
 按<kbd>v</kbd>(Evil:<kbd>gD</kbd>)键可以切换查看模式。
 
-|键|命令|h
+|键|命令|
+|-|-|
 |<kbd>v t</kbd>|两周视图|
 |<kbd>v m</kbd>|月视图|
 |<kbd>v y</kbd>|年视图|
@@ -218,7 +219,126 @@ org-expiry可以用`EXPIRY`属性自动添加`:ARCHIVE:`标签，首先用<kbd>M
 ### org-sudoku
 可以在org-mode里自动生成数独表格！
 
-TODO: {{$:/sudoku}}
+<details><summary>Sudoku</summary>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<colgroup>
+<col  class="org-right" />
+<col  class="org-left" />
+<col  class="org-right" />
+<col  class="org-right" />
+<col  class="org-right" />
+<col  class="org-right" />
+<col  class="org-right" />
+<col  class="org-left" />
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">3</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">4</th>
+<th scope="col" class="org-right">2</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+</tr>
+<tr>
+<th scope="col" class="org-right">2</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">7</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">1</th>
+<th scope="col" class="org-right">6</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">9</th>
+</tr>
+<tr>
+<th scope="col" class="org-right">9</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">3</th>
+<th scope="col" class="org-right">2</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">6</td>
+<td class="org-right">5</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">4</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">6</td>
+</tr>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">6</td>
+<td class="org-right">9</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">1</td>
+<td class="org-right">8</td>
+<td class="org-right">6</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">2</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">9</td>
+<td class="org-right">3</td>
+</tr>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">7</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">3</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
+<td class="org-left">1</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">3</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">7</td>
+<td class="org-right">8</td>
+<td class="org-left">6</td>
+<td class="org-right">2</td>
+</tr>
+</tbody>
+</table>
+</details>
 
 ## 自定义归档
 
