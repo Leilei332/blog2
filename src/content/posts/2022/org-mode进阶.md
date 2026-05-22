@@ -12,24 +12,23 @@ tags:
 ---
 
 
-之前写过一个[[初试org-mode]]，里面介绍了一些基本的org-mode功能。
+TODO: 之前写过一个[[初试org-mode]]，里面介绍了一些基本的org-mode功能。
 
-{{初试org-mode||$:/Scrollview}}
-
-最近研究了一下[[org-mode]]，发现里面还是有很多实用的功能。
+最近研究了一下org-mode，发现里面还是有很多实用的功能。
 
 之前一直用spacemacs，后来是spacemacs-base，现在换成原生Emacs了，自己配置初始化文件。
 
 <details><summary>初始化文件</summary>
-<$codeblock code={{.emacs}} language="lisp" />
+TODO: <$codeblock code={{.emacs}} language="lisp" />
 </details>
 
-> 之前推荐[[Trilium]]的[[idelem|https://yuque.com/idelem]]目前放弃Trilium转用org-mode了
+> 之前推荐Trilium的[idelem](https://yuque.com/idelem)目前放弃Trilium转用org-mode了[^1]
 
-!! Emacs基本操作
+## Emacs基本操作
 推荐开启`menu-bar-mode`了解对应按键。
 
-|键|命令|h
+|键|命令|
+|-|-|
 |<kbd>C-x 0</kbd>|关闭buffer|
 |<kbd>C-x k</kbd>|杀死buffer（让buffer完全消失）|
 |<kbd>C-x b</kbd>|切换buffer|
@@ -39,11 +38,11 @@ tags:
 |<kbd>M-w</kbd>|复制|
 |<kbd>M-x</kbd>|运行命令|
 
-!! 主题
-~~目前推荐使用[[Gotham|https://emacsthemes.com/themes/gotham-theme.html]]，富有科技感的主题。~~已经换到[[doom-themes|https://github.com/doomemacs/themes]]了，现在在用//doom-material-dark//主题，基于//gruvbox//改的。
+## 主题
+~~目前推荐使用[Gotham](https://emacsthemes.com/themes/gotham-theme.html)，富有科技感的主题。~~已经换到[doom-themes](https://github.com/doomemacs/themes)了，现在在用*doom-material-dark*主题，基于*gruvbox*改的。
 
-!! org-capture
-[[文档|https://orgmode.org/manual/Capture.html]]
+## org-capture
+[文档](https://orgmode.org/manual/Capture.html)
 
 一开始并没有深入使用org-capture，在深入了解之后发现这个记录功能非常强大。
 
@@ -73,20 +72,21 @@ tags:
 	 "* TODO %?\n%u")
 	))
 ```
-org-capture自带一个//datetree//功能，可以在org文件里生成一个通过日期分类的大纲，只要把前面设为`file+datetree`即可。
+org-capture自带一个*datetree*功能，可以在org文件里生成一个通过日期分类的大纲，只要把前面设为`file+datetree`即可。
 
-我把//datetree//专门放在了一个record.org文件里。里面都记录了一个时间戳，可以在org-agenda里显示记录的内容。普通的记录用`%T`可以自动添加时间戳。对于事件，用`%^T`，可以弹出一个时间选择器。而用`%^G`（或`%^g`）可以弹出一个标签选择器（支持<kbd>TAB</kbd>补全）。
+我把*datetree*专门放在了一个record.org文件里。里面都记录了一个时间戳，可以在org-agenda里显示记录的内容。普通的记录用`%T`可以自动添加时间戳。对于事件，用`%^T`，可以弹出一个时间选择器。而用`%^G`（或`%^g`）可以弹出一个标签选择器（支持<kbd>TAB</kbd>补全）。
 
 一些特殊标识符：
 
-|表示|描述|h
+|表示|描述|
+|-|-|
 |`%t`|现在日期|
 |`%u`|现在日期（非活动）|
 |`%T`（或`%U`）|现在日期和时间|
 |`%?`|光标停留位置|
 |`%x`|剪贴板内容|
 
-!!! 分组
+### 分组
 如果给每个项目都只定一个键那么就会很混乱，所以org-capture自带了一个分组的功能，比如要按两下<kbd>r</kbd>键记录，按<kbd>rc</kbd>记录另一个，可以在前面添加一个`("r" "Record")`进行分组。
 
 ```
@@ -97,10 +97,11 @@ org-capture自带一个//datetree//功能，可以在org文件里生成一个通
 	 "* %? :record:\n%T" :clock-in t :clock-keep t)
 ```
 
-!! 快捷org-agenda命令
+## 快捷org-agenda命令
 之前一直使用复杂的<kbd>C-c C-t</kbd>这种复杂的命令，其实在org-agenda里有很多一键触发的快捷指令。
 
-|键|Evil键|命令|h
+|键|Evil键|命令|
+|-|-|-|
 |<kbd>b</kbd>|<kbd>[[</kbd>|向前|
 |<kbd>f</kbd>|<kbd>]]</kbd>|向后|
 |<kbd>d</kbd>|<kbd>gDd</kbd>|日视图|
@@ -137,23 +138,24 @@ org-capture自带一个//datetree//功能，可以在org文件里生成一个通
 |<kbd>v E</kbd>|查看条目内部文字|
 |<kbd>v [</kbd>|包括非活动时间戳|
 
-!! 分屏
-[[Emacs]]原生支持分屏，可以让很多窗口显示在一起。
+## 分屏
+Emacs原生支持分屏，可以让很多窗口显示在一起。
 
-|键|命令|h
+|键|命令|
+|-|-|
 |<kbd>C-x 0</kbd>|关闭窗口|
 |<kbd>C-x 1</kbd>|最大化（关闭其他窗口）|
 |<kbd>C-x 2</kbd>|在下面分屏|
 |<kbd>C-x 3</kbd>|在左侧分屏|
 
-!! org-attach
+## org-attach
 org-attach可以给org文件里的标题添加附件，默认按<kbd>C-c C-a</kbd>就可以激活。
 
 激活之后按<kbd>a</kbd>输入一个路径，这个标题就会添加上一个`ID`属性，文件会移动到org目录的data文件夹里，打开按<kbd>C-c C-a o</kbd>就行了。
 
 <kbd>C-c C-a s</kbd>命令可以给标题设置一个路径
 
-!! 标签
+## 标签
 Org-mode可以给标签设置快捷键，这样不用在设置标签时按<kbd>TAB</kbd>补全，只要在设置`org-tag-alist`里把标签改成`("tag" . ?t)`，这样在输入时就可以直接按<kbd>t</kbd>来设置标签了。
 
 注意如果使用`(:startgroup)`和`(:endgroup)`中的标签是只能在其中选择一个，标签选择界面显示为花括号。如果要临时选择多个标签，按<kbd>!</kbd>临时关闭分组。
@@ -188,7 +190,8 @@ Org-mode可以给标签设置快捷键，这样不用在设置标签时按<kbd>T
 
 设置标签的命令：
 
-|键|命令|h
+|键|命令|
+|-|-|
 |<kbd>!</kbd>|关闭分组|
 |<kbd>TAB</kbd>|用原标签输入添加标签|
 |<kbd>SPC</kbd>|清除所有标签|
@@ -199,35 +202,37 @@ Org-mode可以给标签设置快捷键，这样不用在设置标签时按<kbd>T
 (setq org-tags-column 0)
 ```
 
-!! org内置实用模块
-!!! org-mouse
+## org内置实用模块
+### org-mouse
 让org-mode有鼠标支持，比如可以点击打开或折叠标题。
 
-!!! org-habit
+### org-habit
 可以显示重复任务为热力图。
 
-!! org-contrib
+## org-contrib
 org-contrib是一个org-mode第三方插件集合，里面有很多实用插件
 
-!!! org-expiry
-org-expiry可以用`EXPIRY`属性自动添加`:ARCHIVE:`标签，首先用<kbd>M-x</kbd>执行//org-expiry-insert-expiry//添加一个属性。到后面执行//org-expiry-process-entries//就可以了。
+### org-expiry
+org-expiry可以用`EXPIRY`属性自动添加`:ARCHIVE:`标签，首先用<kbd>M-x</kbd>执行*org-expiry-insert-expiry*添加一个属性。到后面执行*org-expiry-process-entries*就可以了。
 
-!!! org-sudoku
+### org-sudoku
 可以在org-mode里自动生成数独表格！
 
-{{$:/sudoku}}
+TODO: {{$:/sudoku}}
 
-!! 自定义归档
+## 自定义归档
 
 ```lisp
 ;; Archive
 (setq org-archive-location "D:/Notes/org-mode/archive.org::* From %s")
 ```
 
-!! @@.pub-under-const 其他配置@@
+<!-- !! @@.pub-under-const 其他配置@@
 ```lisp
 ()
-```
+``` -->
 
-!! 参考
-* [[Org manual|https://orgmode.org/manual/]]
+## 参考
+* [Org manual](https://orgmode.org/manual/)
+
+[^1]: 四年前的11月，此人就已经放弃了折腾工具。（2026.5.21）

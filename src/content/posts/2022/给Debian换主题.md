@@ -12,7 +12,7 @@ tags:
 
 Debian默认带了很多不错的主题，并且都很齐全，有Grub主题，Plymouth主题，登录界面主题等。
 
-!! 设置Plymouth主题
+## 设置Plymouth主题
 Debian进入系统的加载界面的主题是可以换的，可以用Plymouth实现。
 
 首先输入`sudo /usr/sbin/plymouth-set-default-theme -l`列出可用的主题
@@ -24,7 +24,7 @@ sudo /usr/sbin/plymouth-set-default-theme moonlight
 sudo update-initramfs -u
 ```
 
-!! 设置grub和桌面主题
+## 设置grub和桌面主题
 这个可以用内置工具`update-alternatives`实现
 
 在终端输入：
@@ -39,6 +39,6 @@ sudo update-grub
 ```
 重启就能看到效果了。
 
-!! 参考
+## 参考
 
-* [[plymouth - Debian Wiki|https://wiki.debian.org/plymouth]]
+* [plymouth - Debian Wiki](https://wiki.debian.org/plymouth)
