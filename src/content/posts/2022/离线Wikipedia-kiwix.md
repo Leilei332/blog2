@@ -6,7 +6,6 @@ slug: tw2022-offline-wikipedia-kiwix
 tags: 
 - Tiddlywiki 2022归档
 - 软件
-- 日志 2021
 - Wikipedia
 ---
 

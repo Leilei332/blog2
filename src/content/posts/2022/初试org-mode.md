@@ -5,7 +5,6 @@ updated: 2022-05-18
 slug: tw2022-org-mode-try
 tags: 
 - Tiddlywiki 2022归档
-- 日志
 - 软件
 - Emacs
 - org-mode

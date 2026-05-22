@@ -6,7 +6,6 @@ slug: tw2022-sympy
 tags: 
 - Tiddlywiki 2022归档
 - Python
-- 日志
 ---
 
 
