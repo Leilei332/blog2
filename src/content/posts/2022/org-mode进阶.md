@@ -10,7 +10,7 @@ tags:
 ---
 
 
-TODO: 之前写过一个[[初试org-mode]]，里面介绍了一些基本的org-mode功能。
+之前写过一个[初试org-mode](../tw2022-org-mode-try/)，里面介绍了一些基本的org-mode功能。
 
 最近研究了一下org-mode，发现里面还是有很多实用的功能。
 

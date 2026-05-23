@@ -17,7 +17,9 @@ tags:
 * Debian
 * Manjaro
 
-TODO: 目前正在用的是[[Debian|Debian 11安装]]，最新版本11 bulleye
+<!--TODO: Joplin补档-->
+
+目前正在用的是[[Debian|Debian 11安装]]，最新版本11 bulleye
 
 ## Ubuntu
 Ubuntu是自己还是一个Linux小白时用的，当时第一次是在Virtualbox里安装Ubuntu 18.04，后来又体验了类似的Linux Mint发行版，也在里面运行了之前写的Python Tkinter程序，直到后面才开始第一次在电脑上安装
@@ -46,7 +48,9 @@ Kde目前对hdpi的支持还是较差，我首先把缩放调为150%，但某些
 
 导致我放弃Manjaro的是它的滚动更新的机制，因为滚动更新，所以Gnome升级到了40.0版本，而且非常不稳定，切换窗口都会崩溃，只能注销，所以又换回了Kubuntu。
 
-TODO: 当时Kubuntu一直在用，然后Debian 11就出了，当时有点想升级，Kubuntu也因为内核升级的原因出了问题。当时在知乎上看到了Debian与Ubuntu的对比，也知道了nonfree镜像版本（见[[Debian 11安装]])，所以安装了。
+<!--TODO: Joplin补档-->
+
+当时Kubuntu一直在用，然后Debian 11就出了，当时有点想升级，Kubuntu也因为内核升级的原因出了问题。当时在知乎上看到了Debian与Ubuntu的对比，也知道了nonfree镜像版本（见[[Debian 11安装]])，所以安装了。
 
 ## Debian
 最后一个也是目前在用的发行版，目前用下来还是很稳定的，因为Debian的Stable分支用的是固定的软件版本，每个大版本都有自己的仓库，目前对Debian 9的oldoldstable也在维护。

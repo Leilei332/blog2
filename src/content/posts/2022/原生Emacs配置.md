@@ -85,7 +85,7 @@ Emacs默认支持显示电池，可以在mode-line里看到百分比以及充电
 
 ---
 
-TODO: 本人默认喜欢把Emacs最大化，在[[org-mode一些配置]]中可以更改`dotspacemacs-maximized-at-startup`来自动最大化。原生Emacs可以用一个内置函数来最大化：
+本人默认喜欢把Emacs最大化，在[org-mode一些配置](../tw2022-org-mode-try/)中可以更改`dotspacemacs-maximized-at-startup`来自动最大化。原生Emacs可以用一个内置函数来最大化：
 
 ```lisp
 (toggle-frame-maximized)
