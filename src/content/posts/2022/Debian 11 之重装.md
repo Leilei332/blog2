@@ -13,9 +13,11 @@ tags:
 
 这次又换了Debian 11 KDE，因为最近在弄PyQt5，而KDE是基于Qt的，有原生支持。
 
+<!--TODO: Joplin补档-->
+
 安装没什么大问题，跟[[上次|Debian 11安装]]一样。这里主要说一下体验。
 
-!! 体验
+## 体验
 这次的fcitx5自带拼音，皮肤也和默认主题一样，输入法终于做到了开箱即用。由于KDE对HiDPI支持不是很好，所以安装完成后需要在设置里设置缩放为200%，之前的150%缩放并不完美，会让某些图标变糊。Debian默认自带两个sddm主题，外观都不是很好，所以还要安装`sddm-theme-breeze`这个包。
 
 KDE版本和GNOME版本一样都有自带软件，不过KDE的某些软件体验很差。比如说Kmail，配置了邮箱，却收不到邮件，~~我最后只能用Thunderbird代替~~，最后这个KMail配置了EWS后终于能用了。自带的KOrganizer的EWS配置也弄了很久，反正配置没evolution-ews简便。
@@ -35,4 +37,4 @@ sudo pactl load-module module-bluetooth-discover
 
 最后附上KDE上的Qt Designer，终于不用忍受Windows丑陋的界面了，MdiArea也好看了很多。
 
-[img[Screenshot_20220409_103246.png]]
+![](../_images/Screenshot_20220409_103246.png)
