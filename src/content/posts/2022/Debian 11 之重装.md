@@ -3,7 +3,8 @@ title: Debian 11 之重装
 published: 2022-04-08
 updated: 2022-04-11
 slug: tw2022-debian-11-reinstall
-tags: 
+tags:
+- Tiddlywiki 2022归档
 - Linux
 - PyQt5
 ---

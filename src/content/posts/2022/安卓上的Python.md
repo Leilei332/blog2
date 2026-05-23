@@ -3,7 +3,8 @@ title: 安卓上的Python
 published: 2022-01-12
 updated: 2022-01-23
 slug: tw2022-python-on-android
-tags: 
+tags:
+- Tiddlywiki 2022归档
 - Android
 - 软件
 - Python

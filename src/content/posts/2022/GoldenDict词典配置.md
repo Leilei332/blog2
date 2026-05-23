@@ -3,7 +3,8 @@ title: GoldenDict词典配置
 published: 2022-05-12
 updated: 2022-05-15
 slug: tw2022-goldendict
-tags: 
+tags:
+- Tiddlywiki 2022归档
 - 软件
 ---
 
