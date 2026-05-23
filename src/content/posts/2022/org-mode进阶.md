@@ -17,7 +17,47 @@ TODO: 之前写过一个[[初试org-mode]]，里面介绍了一些基本的org-m
 之前一直用spacemacs，后来是spacemacs-base，现在换成原生Emacs了，自己配置初始化文件。
 
 <details><summary>初始化文件</summary>
-TODO: <$codeblock code={{.emacs}} language="lisp" />
+
+```lisp
+;; -*- coding: utf-8  -*-
+(require 'org-habit)
+(require 'org-superstar)
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/stable-melpa/")))
+(package-initialize) ;; You might already have this line
+(prefer-coding-system 'utf-8)
+(load-theme 'gotham t)
+(tool-bar-mode 0)
+(menu-bar-mode 0)
+(scroll-bar-mode 0)
+(tooltip-mode 0)
+(display-battery-mode 1)
+(column-number-mode 1)
+(electric-pair-mode 1)
+(desktop-save-mode 1)
+(setq ring-bell-function 'ignore)
+(setq make-backup-files nil)
+;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
+(toggle-frame-maximized)
+(add-hook 'org-mode-hook (lambda () (org-superstar-mode 1)))
+(setq inhibit-startup-message t)
+(global-hl-line-mode 1)
+(load-file "~/.emacs.d/agenda.el")
+(org-agenda-list)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages '(dracula-theme htmlize org-superstar gotham-theme)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "等距更纱黑体 SC" :foundry "outline" :slant normal :weight normal :height 110 :width normal)))))
+```
+
 </details>
 
 > 之前推荐Trilium的[idelem](https://yuque.com/idelem)目前放弃Trilium转用org-mode了[^1]

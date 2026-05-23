@@ -12,7 +12,7 @@ tags:
 在众多Linux发行版中，我体验了大概这么多发行版：
 
 * Ubuntu
-** Kubuntu
+	* Kubuntu
 * Fedora（仅虚拟机）
 * Debian
 * Manjaro

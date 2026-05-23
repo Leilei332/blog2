@@ -205,8 +205,64 @@ agenda页面：
 
 不过虽然在很多方面不完善，但org-mode作为Emacs的一个插件，在任务管理这个功能上已经是非常完善了，比如热力图功能，计时功能，表格分析功能，甚至是RSS，非常全面。
 
+### 其他[^1]
+在日历里高亮节日：
+
+```lisp
+(setq calendar-mark-holidays-flag t)
+```
+
+之前在org-agenda里显示Diary的方法是这样：
+
+```lisp
+(setq org-agenda-include-diary t)
+;; diary
+;; %%(diary-sunrise)
+;; %%(diary-sunset)
+```
+这样会拖慢org-agenda加载速度，所以推荐使用下面这种在org文件里配置的方法：
+
+```
+* Holidays
+:PROPERTIES:
+:CATEGORY: holiday
+:VISIBILITY: folded
+:END:
+%%(org-calendar-holiday)
+* Sun
+:PROPERTIES:
+:CATEGORY: sun
+:VISIBILITY: folded
+:END:
+%%(diary-sunrise)
+%%(diary-sunset)
+```
+这样可以提升org-agenda的初始化速度。
+
+#### Spacemacs配置
+```lisp
+(defun dotspacemacs/init ()
+(setq-default
+;; ...
+;; 显示列表
+dotspacemacs-startup-lists '((recents . 5)
+(agenda . 5)
+(todos . 7)
+)
+;; underwater主题
+dotspacemacs-themes '(underwater
+spacemacs-dark
+spacemacs-light)
+;; ...
+;; 启动时全屏
+dotspacemacs-maximized-at-startup t
+))
+```
+
 ## 参考
 * [使用Emacs做GTD软件](https://zhuanlan.zhihu.com/p/392279466)
 * [Org-mode手册](https://brantou.github.io/2017/03/21/just-try/)
 * [Org mode beginning at the basics](https://orgmode.org/worg/org-tutorials/org4beginners.html)
 * [Org手册](https://emacsist.github.io/emacsist/orgmode/orgmode%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html)
+
+[^1]: 此部分内容合并自原文章“org-mode一些配置”（2026.5.23）
