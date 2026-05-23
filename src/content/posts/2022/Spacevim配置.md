@@ -66,7 +66,7 @@ let g:vimtex_view_general_options_latexmk = '-reuse-instance'
 ```
 重启，输入命令`:CocInstall coc-vimtex`安装补全插件。
 
-打开一个tex文件，长按<kbd>\</kbd>再按两下<kbd>L</kbd>，vimtex就可以自动编译为PDF，每次保存PDF都会更新，要停止重复刚才操作就行了。
+打开一个tex文件，长按<kbd>&#92;</kbd>再按两下<kbd>L</kbd>，vimtex就可以自动编译为PDF，每次保存PDF都会更新，要停止重复刚才操作就行了。
 
 ## 参考
 * [使用 Neovim 和 vimtex 高效撰写 LaTeX 学术论文](https://sspai.com/post/64080)
