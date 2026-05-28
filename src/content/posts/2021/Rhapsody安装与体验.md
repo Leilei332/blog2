@@ -2,8 +2,9 @@
 title: Rhapsody安装与体验
 published: 2021-04-09
 updated: 2021-04-30
+slug: j2021-rhapsody
 tags: 
-- 补档
+- Joplin 2021补档
 - OS
 - Apple
 ---
@@ -15,7 +16,7 @@ tags:
 
 ![](https://gitee.com/xlbilly/lei-pic/raw/master/image-20210403222517163.png)
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/qemu-system-ppc_oH1bWJMZc8.png "看看就好")
+![看看就好](https://gitee.com/xlbilly/lei-pic/raw/master/qemu-system-ppc_oH1bWJMZc8.png "看看就好")
 
 ## Grazil x86 DR1
 

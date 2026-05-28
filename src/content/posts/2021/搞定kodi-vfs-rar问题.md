@@ -2,8 +2,9 @@
 title: 搞定kodi-vfs-rar问题
 published: 2021-09-29
 updated: 2021-09-29
+slug: j2021-kodi-rar
 tags: 
-- 补档
+- Joplin 2021补档
 ---
 
 

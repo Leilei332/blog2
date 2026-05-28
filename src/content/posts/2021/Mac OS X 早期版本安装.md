@@ -2,8 +2,9 @@
 title: Mac OS X 早期版本安装
 published: 2021-04-20
 updated: 2021-04-30
+slug: j2021-mac-os-x
 tags: 
-- 补档
+- Joplin 2021补档
 - OS
 - Apple
 ---

@@ -2,8 +2,9 @@
 title: Debian 11安装
 published: 2021-09-29
 updated: 2021-11-12
+slug: j2021-debian-11
 tags: 
-- 补档
+- Joplin 2021补档
 - Linux
 ---
 

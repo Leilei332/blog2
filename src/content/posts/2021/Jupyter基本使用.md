@@ -2,8 +2,9 @@
 title: Jupyter基本使用
 published: 2021-04-28
 updated: 2021-05-05
+slug: j2021-jupyter
 tags: 
-- 补档
+- Joplin 2021补档
 - 编程
 - Python
 ---

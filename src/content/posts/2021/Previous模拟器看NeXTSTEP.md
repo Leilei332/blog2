@@ -2,8 +2,9 @@
 title: Previous模拟器看NeXTSTEP
 published: 2021-04-09
 updated: 2021-05-03
+slug: j2021-previous
 tags: 
-- 补档
+- Joplin 2021补档
 - OS
 ---
 
