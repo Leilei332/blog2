@@ -8,6 +8,9 @@ tags:
 - OS
 ---
 
+:::note
+由于删除了之前存图床的Gitee仓库，部分图像可能已丢失。
+:::
 
 在乔布斯被苹果开掉之后，乔布斯自己创建了一个NeXT公司。他先花了十万让一个人画了NeXT的LOGO，然后就开始卖NeXTCube计算机，里面就预装了NeXTSTEP操作系统。
 
@@ -21,11 +24,11 @@ Previous的鼠标速度有点反人类，所以可以在设置里把鼠标速度
 
 这是NeXTSTEP相对早期的版本，屏幕是黑白的。左上角是应用菜单，右边是各种应用，右下角是“黑洞”，在接下来的版本被改成了回收站。
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/20210501182046.png)
+![](../_images/Previous_0OJoYh4S7y.png)
 
 让我惊讶的是，里面还有Mathematica这样的应用适配了NeXTSTEP，你可以在里面输入命令，进行各种运算。然后别的就是各种工具，有查字典的，编辑文本的，还有开发的。
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/20210501182320.png)
+![](../_images/Previous_Z434MrX8Fn.png)
 
 你可能觉得也就这样，但当时是1989年，在当时已经特别先进了。麦金塔，Windows完全不能和NeXTSTEP比，这个GUI界面是当时很先进的，比如说很有3D感的界面等。所以在NeXTSTEP也诞生了第一个服务器。
 
@@ -35,13 +38,13 @@ Previous的鼠标速度有点反人类，所以可以在设置里把鼠标速度
 
 这次的3.0版本终于有了彩色支持，里面的Draw.app也有了彩色选取器支持：
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/20210503182618.png)
+![](../_images/Previous_uaXQong6VK.png)
 
 大概是NeXTCube卖相差的原因，这次版本的NeXTSTEP除了原本的m68k平台，还有x86，SPARC，HP的PA-RISC。
 
 NeXTSTEP的图标是当时最高清的，有40x40之多。里面的一些元素甚至用到了动态图标，比如右上角的时间，日历，最小化的文件管理器显示当时文件夹等。整个系统给人的感觉就是现代化，精致，丝毫没有“老”的感觉。
 
-![NeXTSTEP选择界面](https://gitee.com/xlbilly/lei-pic/raw/master/20210503184909.png)
+![NeXTSTEP选择界面](../_images/Previous_dNSNBBkDmJ.png)
 
 ## 参考
 

@@ -9,8 +9,11 @@ tags:
 - Apple
 ---
 
+:::note
+由于删除了之前存图床的Gitee仓库，部分图像可能已丢失。
+:::
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/qemu-system-ppc_YpxgNrqtzL.jpg)
+![](../_images/qemu-system-ppc_YpxgNrqtzL.jpg)
 
 
 
@@ -38,7 +41,7 @@ qemu-system-ppc.exe -L pc-bios -boot d -m 512 -M g3beige -prom-env "auto-boot?=t
 
 这里就是下一步下一步，不过在填个人信息界面会看到这个：
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/20210422103103.png)
+![](../_images/qemu-system-ppc_ZmL7OhZ5U3.png)
 
 这是最坑的一步，"Zip Code"要填五位数字，右边的"Area Code"可以填三位数字如456，"Phone Number"要填成XXX-XXXX，而且前三位也有要求，所以避免踩坑可以填华盛顿的456，例如：456-1234
 
@@ -52,15 +55,15 @@ qemu-system-ppc.exe -L pc-bios -boot d -m 512 -M g3beige -prom-env "auto-boot?=t
 
 这样，你就完美地绕过了所有的坑。不出意外应该能看到这个界面：
 
-![](https://i.loli.net/2021/04/22/Vd251F4ZgWzLykJ.png)
+![](../_images/qemu-system-ppc_7k7cgS3E4l.png)
 
 ## 体验
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/qemu-system-ppc_YpxgNrqtzL.jpg)
+![](../_images/qemu-system-ppc_YpxgNrqtzL.jpg)
 
 首先开机会出现一个这样的界面，中间有一个麦金塔电脑的图标，有点像Mac OS 9的一闪而过的画面
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/Screenshot_20210430_152940.png)
+![](../_images/qemu-system-ppc_io2ZFnJGyY.png)
 
 早期版本的Mac OS其实还是保留着NeXTSTEP的影子，这个鼠标光标就是从NeXTSTEP的光标搬运过来的，直到10.2版本才进行了重新设计，但还是和NeXTSTEP像。
 
@@ -74,7 +77,7 @@ Qemu模拟的动画效果比我想象中还丝滑，Aqua UI设计也有耳目一
 
 而注销之后就可以看到登录屏幕了，跟Rhapsody的登录屏幕很像，只是之前的正方形按钮换成了圆形水滴按钮，LOGO的文字阴影效果也很好：
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/Screenshot_20210421_123744.png)
+![](../_images/qemu-system-ppc_0A5VaMPm6z.png)
 
 ## 参考
 [Winworld:Mac OS X 10.0](https://winworldpc.com/product/mac-os-x/100)
