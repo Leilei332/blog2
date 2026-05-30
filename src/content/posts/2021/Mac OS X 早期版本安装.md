@@ -31,13 +31,13 @@ qemu-system-ppc.exe -L pc-bios -boot d -m 512 -M g3beige -prom-env "auto-boot?=t
 
 然后就是一步一步来了，在选择安装位置时一定要勾上下面的框，将磁盘重新格式化，然后安装完就好了。
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/20210421184038.png)
+<!-- ![](https://gitee.com/xlbilly/lei-pic/raw/master/20210421184038.png) -->
 
 > 注意：必须先在磁盘工具里格式化好磁盘，否则在选择安装位置时会不显示硬盘，**而不勾下面的框将导致系统无法启动！**
 
 安装完成，把之前的命令里的`-boot d`改成`-boot c`，运行，应该可以看到这个界面：
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/20210422101213.png)
+<!-- ![](https://gitee.com/xlbilly/lei-pic/raw/master/20210422101213.png) -->
 
 这里就是下一步下一步，不过在填个人信息界面会看到这个：
 
@@ -69,7 +69,8 @@ qemu-system-ppc.exe -L pc-bios -boot d -m 512 -M g3beige -prom-env "auto-boot?=t
 
 Qemu模拟的动画效果比我想象中还丝滑，Aqua UI设计也有耳目一新的感觉，至少比当时的Windows 2000好多了，除了最小化外，这个动画我也玩了很久：
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/osx.gif)
+<!-- ![](https://gitee.com/xlbilly/lei-pic/raw/master/osx.gif) -->
+![](../_images/missing.svg)
 
 这个动画效果说实话一点用都没有，但是看着挺酷炫，就像小米自带的地球动态壁纸和苹果应用图标彩蛋一样，也只能说明苹果在UI细节上确实很用心。
 

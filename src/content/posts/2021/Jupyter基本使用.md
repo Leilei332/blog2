@@ -10,7 +10,9 @@ tags:
 ---
 
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/image.png "1")
+<!-- ![](https://gitee.com/xlbilly/lei-pic/raw/master/image.png "1") -->
+
+![](../_images/missing.svg)
 
 现在越来越喜欢Web应用了，今天又开始搞起Jupyter了，操作和Mathematica比较像，虽然功能没Mathematica多，但是很轻量，代码也很容易学会。
 
@@ -52,7 +54,10 @@ WantedBy=multi-user.target
 ## cmd窗口问题
 
 如果按普通启动，就会弹出一个窗口：
-![](resources/92e78ca8b2ad402bbbc41f8ffc889a26.png)
+
+<!-- ![](resources/92e78ca8b2ad402bbbc41f8ffc889a26.png) -->
+![](../_images/missing.svg)
+
 ~~这样也是不行的，所以我按照[这里](https://blog.csdn.net/qq_43479622/article/details/97495807)的方法，创建一个bat文件~~：
 ```powershell
 %隐藏cmd窗口%

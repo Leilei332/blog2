@@ -16,7 +16,9 @@ tags:
 
 在今天，我们可以用模拟器来模拟NeXTCube，目前只发现了Previous这个模拟器，它可以模拟不同的NeXTSTEP机型，虽然不能模拟网络等驱动，但可以让我们看看那时的NeXTSTEP是什么样子的。
 
-![](https://gitee.com/xlbilly/lei-pic/raw/master/20210501180119.png)
+<!-- ![](https://gitee.com/xlbilly/lei-pic/raw/master/20210501180119.png) -->
+
+![](../_images/missing.svg)
 
 Previous的鼠标速度有点反人类，所以可以在设置里把鼠标速度调慢。
 
