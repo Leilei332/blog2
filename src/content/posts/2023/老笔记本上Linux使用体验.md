@@ -10,7 +10,7 @@ slug: linux-on-old-laptop
 
 > 此文尽量保证在Linux系统上写成
 
-在准备给一个老笔记本装一个[[Linux]]系统时正好[Debian 12发布了](https://www.debian.org/News/2023/20230610)，目前在7月22日更新之后是Debian 12.1版本。所以就讲一下老笔记本上的Debian 12使用体验。
+在准备给一个老笔记本装一个Linux系统时正好[Debian 12发布了](https://www.debian.org/News/2023/20230610)，目前在7月22日更新之后是Debian 12.1版本。所以就讲一下老笔记本上的Debian 12使用体验。
 
 ## Debian 12目前遇到的问题
 由于是刚刚出来的正式版，所以目前使用过程中还是有很多问题。
@@ -71,12 +71,12 @@ XMODIFIERS DEFAULT=@im=fcitx5
 ### 软件生态
 这在Linux上是一个比较大的问题，不过目前Linux在这方面改善了许多。目前常用的支持Linux的软件有QQ[^2],百度网盘等。
 
-其中尤其是开源软件对Linux的支持比较好，像[[Emacs]]，GIMP这些在软件包仓库就有。
+其中尤其是开源软件对Linux的支持比较好，像Emacs，GIMP这些在软件包仓库就有。
 
 另外很多人认为Linux上的游戏很少，其实Linux平台上的游戏比想象中的多，Steam就有Linux版本。支持Linux的游戏包括：
 
 * 基于起源引擎的游戏：传送门，传送门2，半条命2，CSGO，GMOD等
-* P社游戏：城市：天际线，[[钢铁雄心4]],维多利亚3等
+* P社游戏：城市：天际线，钢铁雄心4,维多利亚3等
 * 其他3D游戏：Minecraft，
 * 其他游戏：迷你地铁，Limbo，Undertale，泰拉瑞亚，
 
