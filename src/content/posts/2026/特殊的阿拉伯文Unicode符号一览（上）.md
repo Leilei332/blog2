@@ -1,10 +1,9 @@
 ---
-title: 特殊的阿拉伯文Unicode符号一览
-published: 2025-12-23
-updated: 2026-03-20
+title: 特殊的阿拉伯文Unicode符号一览（上）
+published: 2026-06-07
 tags: 
 - 语言
-slug: arabic-special-symbols
+slug: arabic-special-symbols-1
 ---
 
 
@@ -13,14 +12,13 @@ slug: arabic-special-symbols
 为防止某些字符无法正常显示，这些字符会加上ا字符。
 :::
 
-文章内容以Unicode 17.0为准，阿拉伯字母包含7个区块：
+文章内容以Unicode 17.0为准，阿拉伯字母包含7个区块。斜体的区块包含在下篇：
 
 * 基本阿拉伯文
 * 阿拉伯文补充
-* 阿拉伯文拓展A、B和C
-* 阿拉伯文表现形式A、B
-
-fa:﴾﴿
+* 阿拉伯文拓展A、
+* *阿拉伯文拓展B和C*
+* *阿拉伯文表现形式A、B*
 
 ۞۩
 
@@ -64,7 +62,7 @@ fa:﴾﴿
 ## ـ
 名称：`ARABIC TATWEEL`
 
-阿拉伯延长符，Unicode名称得名于阿拉伯语تَطْوِيل。主要用于文本对齐排版和承载变音符号。[^2]
+阿拉伯延长符，Unicode名称得名于阿拉伯语تَطْوِيل。主要用于文本对齐排版和承载变音符号。[^1]
 
 本文也使用此符号呈现字符的各种书写形式。
 
@@ -129,60 +127,4 @@ TODO: ﵁﵂﵃﵄﵅
 ## ﶐﶑
 TODO: 名称
 
-## ﷼
-* 位置：`U+FDFC`
-* 名称：`RIAL SIGN`
-
-将其拆开得到ریال。里亚尔，沙特阿拉伯等国所使用的货币符号。
-
-## ﷺ
-* 位置：`U+FDFA`
-* 名称：`ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM`
-
-阿拉伯语合字，将其拆开得到：
-
-> صلى الله عليه وسلم
-
-意思为“愿真主赐福他并使他平安”。
-
-## ﷻ
-
-* 位置：`U+FDFB`
-* 名称：`ARABIC LIGATURE JALLAJALALOUHOU`
-
-阿拉伯语合字，拆开后得到：
-
-> جل جلاله
-
-意思为“愿祂的尊荣崇高”。
-
-## ﷲ
-* 位置：`U+FDF2`
-* 名称：`ARABIC LIGATURE ALLAH ISOLATED FORM`
-
-阿拉伯文الله的合字，指真主安拉。
-
-## ﷴ
-* 位置：`U+FDF4`
-* 名称：`ARABIC LIGATURE MOHAMMAD ISOLATED FORM`
-
-阿拉伯文محمد的合字，也就是穆罕默德。
-
-## ﷽
-
-信息
-: 名称：`ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM`
-: 位置：`U+FDFD`
-
-~~这个字符是唯一无法用NFKC拆开的阿拉伯文合字~~，内容为：
-
-> بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
-
-意思为“奉至仁至慈的真主之名”。这个宗教短语还有一个名称叫*太斯米*。[^1]
-
-## ﷾
-名称：`ARABIC LIGATURE SUBHAANAHU WATAAALAA`
-
-[^1]: <https://www.qiuwenbaike.cn/wiki/%E5%A4%AA%E6%96%AF%E7%B1%B3>
-
-[^2]: <https://en.wikipedia.org/wiki/Kashida>
+[^1]: <https://en.wikipedia.org/wiki/Kashida>
