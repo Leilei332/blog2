@@ -1,12 +1,16 @@
 ---
 date: "\\<2022-12-02 Fri 20:40\\>"
+published: 2022-12-02
 description: 安卓上的Rime
 title: Trime体验
+tags:
+- Hugo 2023归档
+- 软件
+- 开源
+- Android
+slug: h2023-rime-on-android
 ---
 
-```{=org}
-#+filetags: @软件 @开源 Android
-```
 第一次体验Rime是在Linux里使用ibus-rime，不过由于体验时问题比较多所以没有继续使用。最近在Fdroid上看到了Rime的安卓版：Trime（又叫同文输入法），准备再次尝试一下这个开源的输入法。
 
 这一整篇文章都是用Trime输入法打出来的。

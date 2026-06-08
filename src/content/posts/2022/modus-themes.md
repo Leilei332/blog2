@@ -1,7 +1,13 @@
 ---
 date: "\\<2022-12-23 周五 17:11\\>"
+published: 2022-12-23
 description: Modus Themes
 title: 一个不错的Emacs主题
+tags:
+- Hugo 2023归档
+- Emacs
+- 编程
+slug: h2023-modus-themes
 ---
 
 ```{=org}
@@ -28,7 +34,7 @@ title: 一个不错的Emacs主题
 
 `modus-themes` 的默认主题不是很好看，不过可以通过设置主题提供的选项来达到满意的效果，这些选项需要在加载主题前设置好。
 
-![modus-vivendi主题，左侧为原版，右侧为调整后](images/modus_preview.png)
+![modus-vivendi主题，左侧为原版，右侧为调整后](../_images/modus_preview.png)
 
 首先根据[官网](https://protesilaos.com/emacs/modus-themes)的推荐设置，将F5绑定为切换亮色和暗色主题的按键。
 
