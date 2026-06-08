@@ -1,16 +1,12 @@
 ---
 date: "\\<2022-12-02 Fri 20:40\\>"
-published: 2022-12-02
 description: 安卓上的Rime
 title: Trime体验
-tags:
-- Hugo 2023补档
-- 软件
-- 开源
-- Android
-slug: h2023-rime-on-android
 ---
 
+```{=org}
+#+filetags: @软件 @开源 Android
+```
 第一次体验Rime是在Linux里使用ibus-rime，不过由于体验时问题比较多所以没有继续使用。最近在Fdroid上看到了Rime的安卓版：Trime（又叫同文输入法），准备再次尝试一下这个开源的输入法。
 
 这一整篇文章都是用Trime输入法打出来的。
@@ -19,12 +15,9 @@ slug: h2023-rime-on-android
 
 Rime只是一个输入法引擎，所以默认是不带输入法的，需要从Github上下载一个配置来用。我一开始用的是[rimerc](https://github.com/Bambooin/rimerc)，里面默认包含了"明月拼音输入法。
 
-可惜的是这个输入法默认只支持繁体中文。为了解决这个问题，Rime的开发者又弄了一个
-`opencc`
-项目，这个开源工具支持转换文字和词语，目前Trime已经内置了这个工具。只需在配置文件中启用即可。
+可惜的是这个输入法默认只支持繁体中文。为了解决这个问题，Rime的开发者又弄了一个 `opencc` 项目，这个开源工具支持转换文字和词语，目前Trime已经内置了这个工具。只需在配置文件中启用即可。
 
-Rime的配置文件用的是yaml语法。rimerc的Trime版本的明月拼音有一个简繁开关，但没有用，解决的方法是在
-`luna_pinyin.schema.yaml` 中加入以下内容：
+Rime的配置文件用的是yaml语法。rimerc的Trime版本的明月拼音有一个简繁开关，但没有用，解决的方法是在 `luna_pinyin.schema.yaml` 中加入以下内容：
 
 ``` yaml
 simplifier:
@@ -54,10 +47,10 @@ Trime为剪切，复制，粘贴三个操作设置了快捷键。
 
 ### 主题
 
-Trime内置主题和配色功能，默认带了主题 `trime` 和 `tongwenfeng` 。
+Trime内置主题和配色功能，默认带了主题 `trime`
+和 `tongwenfeng` 。
 
-主题和大多数输入法的皮肤功能一样，将主题的yaml文件和资源文件拖进rime文件夹就可以用。Trime内置的主题也内置了很多配色方案，这里推荐的配色方案是
-*暗堂 Dark Temple* 。
+主题和大多数输入法的皮肤功能一样，将主题的yaml文件和资源文件拖进rime文件夹就可以用。Trime内置的主题也内置了很多配色方案，这里推荐的配色方案是 *暗堂 Dark Temple* 。
 
 在GitHub上也有一些不错的主题，如[单静](https://github.com/cxcn/danjing)。
 
@@ -67,8 +60,7 @@ Trime内置音效自定义，不过不常用。
 
 ## 草稿箱和剪贴板
 
-这也是Trime中的一个很重要的功能。Trime会将一些输入历史自动记录到草稿箱，把剪贴的历史记录到剪贴版，可以在键盘中的
-*更多* 里看到[^2]。
+这也是Trime中的一个很重要的功能。Trime会将一些输入历史自动记录到草稿箱，把剪贴的历史记录到剪贴版，可以在键盘中的 *更多* 里看到[^2]。
 
 如果不想让所有记录都记录到草稿箱，可以设置通过应用包名或者正则表达式过滤。
 
@@ -92,10 +84,7 @@ Trime的性能相对于默认的华为输入法和谷歌拼音输入法比较一
 
 更换字体（比如Noto Sans CJK）。
 
-在rime目录新建 `fonts`
-目录，将字体文件放入（比如NotoSansCJKsc-Regular.ttf），然后找到要更改的主题，新建一个配置文件（比如
-`tongwenfeng.trime.yaml` 的配置文件是 `tongwenfeng.trime.custom.yaml`
-）在里面加入：
+在rime目录新建 `fonts` 目录，将字体文件放入（比如NotoSansCJKsc-Regular.ttf），然后找到要更改的主题，新建一个配置文件（比如 `tongwenfeng.trime.yaml` 的配置文件是 `tongwenfeng.trime.custom.yaml` ）在里面加入：
 
 :::: captioned-content
 ::: caption

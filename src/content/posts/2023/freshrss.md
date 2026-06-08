@@ -1,15 +1,12 @@
 ---
 date: "\\<2023-01-08 Sun 11:23\\>"
-published: 2023-01-08
 description: FreshRSS
 title: 重新使用RSS
-tags:
-- Hugo 2023归档
-- 开源
-- RSS
-slug: h2023-freshrss
 ---
 
+```{=org}
+#+filetags: 开源 RSS
+```
 RSS在很久以前就已经有了，作为一个历史悠久的技术，在这个信息爆炸的年代又有了新的意义。越来越多人开始重拾RSS。
 
 我在之前用过很多本地RSS工具，不过后来都没怎么用。后来发现使用在线提供的RSS服务更加方便。目前仍然存活的RSS服务有：
@@ -23,12 +20,9 @@ RSS在很久以前就已经有了，作为一个历史悠久的技术，在这�
 
 # 为什么选择FreshRSS
 
-在目前用下来有很多RSS托管服务都是带有广告的，比如Inoreader和The Old
-Reader。而FreshRSS开源免费，没有任何广告。
+在目前用下来有很多RSS托管服务都是带有广告的，比如Inoreader和The Old Reader。而FreshRSS开源免费，没有任何广告。
 
-FreshRSS这个服务原本是要自建的，不过[官网](https://freshrss.org)很良心，在下面可以找到
-**Sign up to an existing server.**
-，里面列出了现成的FreshRSS服务器列表，我选择了一个法国的服务器<https://rss.cheredeprince.net>。在那个列表里可以找到很多FreshRSS服务器，选一个注册即可。
+FreshRSS这个服务原本是要自建的，不过[官网](https://freshrss.org)很良心，在下面可以找到 **Sign up to an existing server.** ，里面列出了现成的FreshRSS服务器列表，我选择了一个法国的服务器<https://rss.cheredeprince.net>。在那个列表里可以找到很多FreshRSS服务器，选一个注册即可。
 
 # 应用端
 
@@ -44,9 +38,7 @@ FreshRSS这个服务原本是要自建的，不过[官网](https://freshrss.org)
 
 订阅FreshRSS[^2]需要先生成一个API密码。在侧边栏点击"账户，找到"API管"，在上面密码框输入一个密码（注意这和账户密码不同）。
 
-在Readrops里直接填上服务器地址，用户名，API密码就可以了。在FeedMe和NetNewsWire里还需要在服务器地址后面加上
-`/api/greader.php` 。比如服务器是 `https://rss.cheredeprince.net/`
-，填的地址就是 `https://rss.cheredeprince.net/api/greader.php` 。
+在Readrops里直接填上服务器地址，用户名，API密码就可以了。在FeedMe和NetNewsWire里还需要在服务器地址后面加上 `/api/greader.php` 。比如服务器是 `https://rss.cheredeprince.net/` ，填的地址就是 `https://rss.cheredeprince.net/api/greader.php` 。
 
 # Footnotes
 
