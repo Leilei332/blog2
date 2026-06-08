@@ -1,15 +1,17 @@
 ---
 date: "\\<2023-01-05 Thu 18:07\\>"
+published: 2023-01-05
 description: KISS Launcher体验
 title: 一个启动器可以有多简洁
+tags:
+- Hugo 2023归档
+- 软件
+- 开源
+- 启动器
+- Android
+slug: h2023-kiss-launcher
 ---
 
-```{=org}
-#+filetags: @软件 @开源 启动器 Android
-```
-```{=org}
-#+hugo_draft: true
-```
 > Keep it simple & stupid. -- Kelly Johnson
 
 这句话在很多情况下都适用。在做任何设计时都需要贯彻"简洁"原则。
@@ -104,8 +106,7 @@ Launcher[F-droid页面](https://f-droid.org/packages/fr.neamar.kiss/)的介绍�
 在我因为一开始的好奇而使用了之后也着魔般地用了好一会。目前，直至最新版本，KISS
 Launcher安装包的大小仍然没有超过1MB，但是与很多主流的启动器相比有更多的实用功能，也许这就是它的魔力所在。
 
-![简洁的KISS Launcher（带Arcticons Icon
-Pack）](images/Screenshot_2022-11-30-20-54-46.png)
+![简洁的KISS Launcher（带Arcticons Icon Pack）](../_images/Screenshot_2022-11-30-20-54-46.png)
 
 其实这种"效率桌面"其实目前看来有很多，但是KISS Launcher早就在Android
 6的时候就开始项目了，而且开源免费，是"效率桌面中不错的选择。

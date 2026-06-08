@@ -1,12 +1,19 @@
 ---
-date: "\\<2022-09-30 周五 19:17\\>"
+published: 2022-09-30
 description: Emacs在安卓上的体验
 title: Termux上的Emacs
+tags:
+- Hugo 2023补档
+- org-mode
+- Emacs
+- Android
+slug: h2023-emacs-on-termux
 ---
 
-```{=org}
-#+filetags: @org-mode Emacs Android
-```
+:::note
+自Emacs 30起，Emacs已有官方安卓版本。本文内容由于使用的是旧版Termux以兼容Android 5，可能已过时。
+:::
+
 目前在移动设备上org-mode的解决方案有[Orgzly](https://orgzly.com)，[Organice](https://organice.200ok.ch/)，Beorg等，其中Organice的支持是最好的，但是完美的org-mode支持目前只有Emacs。因为org-mode非常复杂，单单任务计划，标记就有一大堆东西，所以我又重拾了在Android上运行Linux程序的方案：
 **Termux**
 

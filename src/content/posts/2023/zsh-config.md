@@ -1,12 +1,14 @@
 ---
 date: "\\<2023-01-26 Thu 05:58\\>"
+published: 2023-01-26
 description: zsh配置
 title: 功能强大的zsh
+tags:
+- Hugo 2023归档
+- Linux
+slug: h2023-zsh-config
 ---
 
-```{=org}
-#+filetags: Linux
-```
 > 此org文件内置的代码可以通过org-mode内置的org-babel-tangle功能取出，见[org-mode文档](info:org#Extracting Source Code)。
 
 之前一直觉得zsh和bash等其他Shell一样，直到最近看了一下zsh的文档才发现zsh的功能非常丰富，可以说是"Shell里面的Emacs"
@@ -82,7 +84,7 @@ compinit
 
 然后就可以在很多地方使用补全了。其中git对于zsh的补全支持非常好，对于操作的命令可以在下方显示解释，甚至可以补全每个commit并显示时间，如下图所示：
 
-![在zsh里甚至可以补全commit](images/IMG_9539.jpg)
+![在zsh里甚至可以补全commit](../_images/IMG_87600.png)
 
 下面是某些Linux发行版默认的zsh补全配置，比较复杂一些：
 

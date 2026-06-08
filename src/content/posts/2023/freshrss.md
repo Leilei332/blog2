@@ -1,12 +1,15 @@
 ---
 date: "\\<2023-01-08 Sun 11:23\\>"
+published: 2023-01-08
 description: FreshRSS
 title: 重新使用RSS
+tags:
+- Hugo 2023归档
+- 开源
+- RSS
+slug: h2023-freshrss
 ---
 
-```{=org}
-#+filetags: 开源 RSS
-```
 RSS在很久以前就已经有了，作为一个历史悠久的技术，在这个信息爆炸的年代又有了新的意义。越来越多人开始重拾RSS。
 
 我在之前用过很多本地RSS工具，不过后来都没怎么用。后来发现使用在线提供的RSS服务更加方便。目前仍然存活的RSS服务有：

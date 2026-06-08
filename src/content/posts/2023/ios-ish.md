@@ -1,15 +1,19 @@
 ---
 date: "\\<2023-01-27 Fri 09:25\\>"
+published: 2023-01-27
 description: iOS上的Linux模拟器
 title: iSH体验
+tags:
+- Hugo 2023归档
+- 软件
+- 开源
+- iOS
+- Linux
+slug: h2023-ios-ish
 ---
 
-```{=org}
-#+filetags: @软件 @开源 iOS Linux
-```
-```{=org}
-#+hugo_custom_front_matter: :featuredImage ox-hugo/IMG_87600.png
-```
+![](../_images/IMG_87600.png)
+
 之前在安卓上介绍过[Termux](https://xlbil.netlify.app/posts/emacs-on-termux/)这个安卓上的Shell模拟器，而在iOS平台上也有一个类似的应用，叫iSH。在App
 Store上的页面可以看到只有一个白色的截图，不看清楚还以为只是一个低级的ssh应用，其实这个应用内置了一个微型的[Linux系统](https://www.alpinelinux.org/)，而且自带了软件包管理器
 `apk` 。
@@ -95,7 +99,7 @@ iSH的问题目前看下来特别大。
 
 在应用中切换输入法，进行分屏，或者仅仅是进行一些普通操作，都会导致iSH出现卡顿，经常出现的卡顿就是下面这种情况：
 
-![最容易复现的bug：重复出现的内容](images/截屏 2022-12-11 22.19.52.png)
+![最容易复现的bug：重复出现的内容](../_images/截屏%202022-12-11%2022.19.52.png)
 
 这种情况非常常见，经常就是在切换输入法的时候终端上的文字就会错位。在Vim和Emacs里这个问题非常严重。
 
@@ -152,7 +156,7 @@ cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 虽然iSH目前在iOS的体验非常差，而且[*小问题*]{.spurious-link
 target="*一些小问题"}一大堆。但是由于
 
-![Git on iSH](images/IMG_87600.png)
+![Git on iSH](../_images/IMG_87600.png)
 
 # Footnotes
 
