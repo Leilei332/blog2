@@ -11,9 +11,13 @@ tags:
 slug: h2023-emacs-on-android
 ---
 
+:::note
+自Emacs 30起，Emacs已有官方安卓版本。本文内容由于使用的是旧版Termux以兼容Android 5，可能已过时。
+:::
+
 目前在移动设备上org-mode的解决方案有[Orgzly](https://orgzly.com)，[Organice](https://organice.200ok.ch/)，Beorg等，其中Organice的支持是最好的，但是完美的org-mode支持目前只有Emacs。因为org-mode非常复杂，单单任务计划，标记就有一大堆东西，所以我又重拾了在Android上运行Linux程序的方案： **Termux**
 
-# 安装
+## 安装
 
 Termux在2022年重拾了对Android 5的支持，不过只能通过Github Actions里生成的文件来安装，选择 `apt-android-5` 即可。
 
@@ -23,7 +27,7 @@ Termux在2022年重拾了对Android 5的支持，不过只能通过Github Action
 apt install emacs
 ```
 
-# 同步org文件
+## 同步org文件
 
 一开始我用的是Orgzly，所以我使用了Webdav同步。在Linux上虽然有支持Webdav的工具rclone，但是同步操作太麻烦，所以我现在使用Git来代替。而且Emacs内置的 `vc-git` 默认对Git有很好的支持。
 
@@ -31,11 +35,11 @@ apt install emacs
 
 然后将URL改成 `https://outh2:令牌@gitlab.com` 就行了。
 
-## VC的使用
+### VC的使用
 
 按 `C-x v d` 就可以查看所有文件的状态，提交文件先在要提交的目录或文件上按 `m` 标记[^1]，再用 `C-x v v` 提交文件。最后按 `P` 推送文件即可。
 
-# 和organice同步
+## 和organice同步
 
 在organice里输入GitLab的URL，然后会跳转到GitLab的授权页面，同意授权即可。
 
@@ -45,7 +49,7 @@ apt install emacs
 git pull
 ```
 
-# 问题
+## 问题
 
 目前organice和Termux上的Emacs基本没大问题，不过有几个问题很影响体验：
 

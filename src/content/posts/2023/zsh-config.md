@@ -9,13 +9,13 @@ tags:
 slug: h2023-zsh-config
 ---
 
-> 此org文件内置的代码可以通过org-mode内置的org-babel-tangle功能取出，见[org-mode文档](info:org#Extracting Source Code)。
+> 此org文件内置的代码可以通过org-mode内置的org-babel-tangle功能取出，见[org-mode文档](https://www.gnu.org/software/emacs/manual/html_node/org/Extracting-Source-Code.html)。
 
 之前一直觉得zsh和bash等其他Shell一样，直到最近看了一下zsh的文档才发现zsh的功能非常丰富，可以说是"Shell里面的Emacs"
 
-# 基本设置
+## 基本设置
 
-## 保存历史记录
+### 保存历史记录
 
 在 `.zshrc` 加入：
 
@@ -28,7 +28,7 @@ setopt hist_ignore_dups
 
 其中 `HISTFILE` 用来指定保存历史记录的文件名， `SAVEHIST` 指定保存历史记录的数量。接下来是两个zsh内部选项的设置， `append_history` 可以在zsh内输入exit之后保存历史记录。不过有时候推出zsh的方法并不是这样，而是手动关闭，所以推荐设置 `inc_append_history` 选项，这会让zsh每次执行完命令后保存历史记录。
 
-## 快捷键设置
+### 快捷键设置
 
 使用 `bindkey` 命令可以设置zsh的快捷键键位，zsh默认设置的是Emacs键位，也就是：
 
@@ -42,7 +42,7 @@ bindkey -e
 bindkey -v
 ```
 
-# 主题
+## 主题
 
 其实zsh里面已经内置了一些主题了[^1]。首先输入：
 
@@ -62,7 +62,7 @@ promptinit
 prompt clint
 ```
 
-# 补全
+## 补全
 
 zsh最强大的功能就是补全了，里面对很多软件都有补全支持（在部分发型版需要安装 `软件名-zsh-completion` 包），这也是我在Debian上用zsh的原因。
 
@@ -110,9 +110,9 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 ```
 
-# 其他
+## 其他
 
-## 显示版本控制信息
+### 显示版本控制信息
 
 zsh内置一个 `vcs_info` 模块（在部分Linux发型版上需要单独安装 `zsh-vcs` 包），可以显示版本控制信息[^2]，开启方式如下：
 
@@ -134,7 +134,7 @@ zstyle ':vcs_info:*' enable git hg svn
 
 目前zsh内置的主题只有clint是支持显示版本控制信息的。
 
-## 用cdr命令跳转至最近的文件夹
+### 用cdr命令跳转至最近的文件夹
 
 这是zsh里面的一个很实用的功能。开启方法：
 
@@ -145,7 +145,7 @@ add-zsh-hook chpwd chpwd_recent_dirs
 
 用 `cdr -l` 可以列出之前去过的文件夹
 
-## 游戏
+### 游戏
 
 zsh里面自带一个俄罗斯方块游戏，可以用以下方式开启：
 
