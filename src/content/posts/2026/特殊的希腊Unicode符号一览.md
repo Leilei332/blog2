@@ -11,6 +11,8 @@ slug: special-greek-symbols
 此文不包含关于科普特文的信息。
 :::
 
+希腊字母是希腊语所使用的字母，是世界上最早的有元音的字母，也广泛使用于数学、物理、生物、天文等学科。俄语等使用的西里尔字母也是由希腊字母演变而成。希腊字母源自腓尼基字母。腓尼基字母只有辅音，从右向左写。希腊语是首个拥有元音字母的字母系统。因为希腊人的书写工具是蜡板，有时前一行从右向左写完后顺势就从左向右写，变成所谓牛耕式转行书写法，后来逐渐演变成全部从左向右写。字母的方向也颠倒了。罗马人引进希腊字母，略微改变变为拉丁字母，在世界广为流行。希腊字母广泛应用到学术领域，如数学等。
+
 希腊文字母包含两个区块：
 
 * 希腊文
@@ -94,7 +96,7 @@ slug: special-greek-symbols
 ## ϒ
 名称：`GREEK UPSILON WITH HOOK SYMBOL`
 
-
+通常用来表示Υ介子物理符号，与Υ兼容等价。
 
 ## ϕ
 名称：`GREEK PHI SYMBOL`
@@ -102,16 +104,34 @@ slug: special-greek-symbols
 φ的变体，被用作数学、科技符号（如直径）。
 
 ## ϖ
+名称：`GREEK PI SYMBOL`
 
+又叫*omega pi*，被用作技术符号，与π（`GREEK SMALL LETTER PI`）兼容等价。
 
-## Ϙϙ
-名称：`GREEK * LETTER ARCHAIC KOPPA`
+此符号和其他希腊字母一样还有几个字体变体：𝛡𝜛𝝕𝞏𝟉
+
+## ϘϙϞϟ
+名称：
+* `GREEK * LETTER ARCHAIC KOPPA`
+* `GRREK * LETTER KOPPA`
+
+这两个字母分别为古体Koppa和现代Koppa。古体Koppa是早期希腊字母表的字母，由腓尼基字母𐤒发展而来，曾表示发音/k/，后被字母Kappa (Κ)代替。同时此字母在希腊数字中表示90，此功能被现代Koppa代替。[^8]
 
 ## Ϛϛ
+名称：`GREEK * LETTER STIGMA`
 
-## Ϟϟ
+最初为早期希腊字母Ϝϝ的变体，由于Ϝ传统字形易与Σ等字符混淆，在拜占庭时期此字符代替Digamma表示数字6。
+
+在中世纪与拜占庭时期的文本中也被用作Σ和Τ的连字表示/st/音。[^9]
+
+## ϱ
+名称：`GREEK RHO SYMBOL`
+
+此字符与ρ（`GREEK SMALL LETTER RHO`）兼容等价。
 
 ## ϰ
+
+## ϴ
 
 ## 古希腊数字区块
 
@@ -138,6 +158,11 @@ slug: special-greek-symbols
 ### ∑
 名称：`N-ARY SUMMATION`
 
+### ⍳⍴⍵⍶⍷⍸⍹⍺
+名称：
+
+均为APL编程语言的符号。
+
 
 [^1]: <https://en.wikipedia.org/wiki/Greek_numerals#Isopsephy>
 
@@ -152,3 +177,7 @@ slug: special-greek-symbols
 [^6]: <https://en.wikipedia.org/wiki/%CD%B2>
 
 [^7]: <https://en.wikipedia.org/wiki/%CD%B6>
+
+[^8]: <https://en.wikipedia.org/wiki/%CF%98>
+
+[^9]: <https://en.wikipedia.org/wiki/%CF%9A>
