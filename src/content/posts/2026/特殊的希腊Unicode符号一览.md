@@ -127,13 +127,21 @@ slug: special-greek-symbols
 ## ϱ
 名称：`GREEK RHO SYMBOL`
 
+ρ的一个变体
+
 此字符与ρ（`GREEK SMALL LETTER RHO`）兼容等价。
 
 ## ϰ
-名称：
+名称：`GREEK KAPPA SYMBOL`
 
 ## ϴ
+名称：`GREEK
 
+## ϵ϶
+
+## Ϸϸ
+
+## Ϻϻ
 
 ## 古希腊数字区块
 
