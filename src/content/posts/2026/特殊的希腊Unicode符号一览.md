@@ -130,8 +130,10 @@ slug: special-greek-symbols
 此字符与ρ（`GREEK SMALL LETTER RHO`）兼容等价。
 
 ## ϰ
+名称：
 
 ## ϴ
+
 
 ## 古希腊数字区块
 
