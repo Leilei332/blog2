@@ -1,7 +1,6 @@
 ---
 title: 特殊的希腊Unicode符号一览
-published: 2026-02-04
-updated: 2026-04-01
+published: 2026-06-21
 tags: 
 - Unicode
 slug: special-greek-symbols
@@ -24,14 +23,14 @@ slug: special-greek-symbols
 ## Ͱͱ
 名称：`GREEK * LETTER HETA`
 
-希腊字母Eta（Η）的原始形式，表示/h/音，在希腊语中已被弃用。
+古体希腊字母。希腊字母Eta（Η）的原始形式，表示/h/音，在希腊语中已被弃用。
 
 ## ͲͳϠϡ
 名称：
 * `GREEK * LETTER ARCHAIC SAMPI`
 * `GREEK * LETTER SAMPI`
 
-这四个字母的名称都叫做Sampi，但是功能不同：`SAMPI`只在希腊数字系统中用来表示数字900，`ARCHAIC SAMPI`则是古爱奥尼亚方言中的字母，表示/ss/和/ts/发音。[^6]
+均为古体希腊字母。这四个字母的名称都叫做Sampi，但是功能不同：`SAMPI`只在希腊数字系统中用来表示数字900，`ARCHAIC SAMPI`则是古爱奥尼亚方言中的字母，表示/ss/和/ts/发音。[^6]
 
 ## ʹ͵
 名称：`GREEK NUMERAL SIGN`和`GREEK LOWER NUMERAL SIGN`
@@ -46,7 +45,7 @@ slug: special-greek-symbols
 * `GREEK SMALL LETTER DIGAMMA`
 * `GREEK * LETTER PAMPHYLIAN DIGAMMA`
 
-古希腊字母表字母。由于其形状像两个gamma（Γ）叠在一起，因此得名digamma（双gamma）。曾在希腊语中表示/w/发音，在希腊语中/w/发音消失后被废弃。此字母在希腊数字系统中也表示数字6，之后此用途被stigma字母（Ϛ）代替。
+均为古体希腊字母。由于其形状像两个gamma（Γ）叠在一起，因此得名digamma（双gamma）。曾在希腊语中表示/w/发音，在希腊语中/w/发音消失后被废弃。此字母在希腊数字系统中也表示数字6，之后此用途被stigma字母（Ϛ）代替。
 
 Ͷ则是潘菲利亚方言特有的本土发展形式，同样表示/w/音，与标准Digamma是平行发展的关系。潘菲利亚方言保留了Digamma的使用时间比其他希腊方言更长。早期铭文中，本土形式的Ͷ用于元音后的/w/音，而标准Digamma用于其他位置。后来，标准Digamma被引入潘菲利亚，代表/v/音作为/w/的变体，而本土形式Ͷ保留给/w/音。[^7]
 
@@ -108,44 +107,44 @@ slug: special-greek-symbols
 
 又叫*omega pi*，被用作技术符号，与π（`GREEK SMALL LETTER PI`）兼容等价。
 
-此符号和其他希腊字母一样还有几个字体变体：𝛡𝜛𝝕𝞏𝟉
-
 ## ϘϙϞϟ
 名称：
 * `GREEK * LETTER ARCHAIC KOPPA`
 * `GRREK * LETTER KOPPA`
 
-这两个字母分别为古体Koppa和现代Koppa。古体Koppa是早期希腊字母表的字母，由腓尼基字母𐤒发展而来，曾表示发音/k/，后被字母Kappa (Κ)代替。同时此字母在希腊数字中表示90，此功能被现代Koppa代替。[^8]
+均为古体希腊字母。这两个字母分别为古体Koppa和现代Koppa。古体Koppa是早期希腊字母表的字母，由腓尼基字母𐤒发展而来，曾表示发音/k/，后被字母Kappa (Κ)代替。同时此字母在希腊数字中表示90，此功能被现代Koppa代替。[^8]
 
 ## Ϛϛ
 名称：`GREEK * LETTER STIGMA`
 
-最初为早期希腊字母Ϝϝ的变体，由于Ϝ传统字形易与Σ等字符混淆，在拜占庭时期此字符代替Digamma表示数字6。
+古体希腊字母。最初为早期希腊字母Ϝϝ的变体，由于Ϝ传统字形易与Σ等字符混淆，在拜占庭时期此字符代替Digamma表示数字6。
 
 在中世纪与拜占庭时期的文本中也被用作Σ和Τ的连字表示/st/音。[^9]
 
-## ϱ
-名称：`GREEK RHO SYMBOL`
-
-ρ的一个变体
-
-此字符与ρ（`GREEK SMALL LETTER RHO`）兼容等价。
-
-## ϰ
-名称：`GREEK KAPPA SYMBOL`
-
-## ϴ
-名称：`GREEK
-
-## ϵ϶
-
 ## Ϸϸ
+名称：`GREEK * LETTER SHO`
+
+古体希腊字母。用于书写巴克特里亚语，发音为/ʃ/。虽然与拉丁字母Þþ（`LATIN * LETTER THORN`）较像，但两者在历史上不相关。[^10]
 
 ## Ϻϻ
+名称：`GREEK * LETTER SAN`
+
+古体希腊字母。在旧希腊字母表中位于Π和Ϙ之间，独有类似/s/，在某些古希腊方言中用于Σ的替代字母，之后被Σ取代，到公元前5世纪左右基本不再使用。
+
+## ϼ
+名称：`GREEK RHO WITH STROKE SYMBOL`
+
+ρ的一个变体，用来表示包含字母ρ的缩写。
 
 ## 古希腊数字区块
 
-𐅄𐅦𐅨𐅩
+:::note
+由于官网将这个区块算作希腊文的一部分，这里简要提一下这个区块的信息。
+:::
+
+此区块用于编码古希腊使用的阿提卡数字（Acrophonic numerals），以及其在特罗曾等地区、交易的变体形式，纸莎草学符号（如𐅷表示二分之三）。同时还有一些特殊符号（如𐆌表示正弦曲线）。
+
+例如这些数字都表示50:𐅄𐅦𐅨𐅩
 
 ## 其他
 
@@ -154,19 +153,32 @@ slug: special-greek-symbols
 
 专门表示“微”计量单位的符号。虽然外观与μ（`GREEK SMALL LETTER MU`）一致，但编码与名称不同。µ的编码的位置位于Latin-1 Supplement这个区块，非常靠前。此字符与μ为兼容等价关系，浏览器的搜索功能将两者视为相同字符。
 
-### Ω
-名称：`OHM SIGN`
+### Ω℧
+名称：
+* `OHM SIGN`
+* `INVERTED OHM SIGN`
 
-欧姆
+专门用于表示电阻单位“欧姆”。在历史上电气标准化时，为纪念**乔治•西蒙•欧姆**而选用“欧姆”作为单位。但由于其首字母O易混淆，委员会决定使用不易混淆的希腊字母Ω。
+
+℧则是旧版表示电导率单位“西门子”的符号，由于电导率为电阻倒数，因此其外形为颠倒的Ω，现被大写字母S代替。
+
+Ω字符与Ω(`GREEK CAPITAL LETTER OMEGA`互为标准等价关系，官方标准推荐使用后者。
 
 ### ∆
 名称：`INCREMENT`
 
-### ∏
-名称：`N-ARY PRODUCT`
+这个符号在不同领域有不同含义，根据Unicode名称其代表增量符号。德国数学家**莱布尼茨（Leibniz）**最早使用希腊字母Δ表示增量，防止与微分符号d混淆，之后也被用作物理变化量符号。20世纪国际计量大会统一规定希腊字母Δ表示有限增量。
 
-### ∑
-名称：`N-ARY SUMMATION`
+在Unicode中，此字符被算作数学符号，虽然与Δ（`GREEK CAPITAL LETTER DELTA`）外观相同但无关系。
+
+### ∏∑
+名称：
+* `N-ARY PRODUCT`
+* `N-ARY SUMMATION`
+
+这两个符号分别代表连加和连乘，由瑞士数学家**欧拉**发明并推广，取自单词Product和Summation首字母的希腊版，之后在全球通用。
+
+这两个字符同样算作数学符号，与Π（`GREEK CAPITAL LETTER PI`）和Ʃ（`GREEK CAPITAL LETTER SIGMA`）外观相似但无关系。
 
 ### ⍳⍴⍵⍶⍷⍸⍹⍺
 名称：
@@ -191,3 +203,5 @@ slug: special-greek-symbols
 [^8]: <https://en.wikipedia.org/wiki/%CF%98>
 
 [^9]: <https://en.wikipedia.org/wiki/%CF%9A>
+
+[^10]: <https://en.wikipedia.org/wiki/%CF%B7>
