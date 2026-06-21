@@ -1,5 +1,5 @@
 ---
-title: 特殊的希腊Unicode符号一览
+title: 特殊的希腊文Unicode符号一览
 published: 2026-06-21
 tags: 
 - Unicode
@@ -14,9 +14,9 @@ slug: special-greek-symbols
 
 希腊文字母包含两个区块：
 
-* 希腊文
-* 希腊文拓展
-* 古希腊数字
+* [希腊文](https://unicode.org/charts/PDF/U0370.pdf)
+* [希腊文拓展](https://unicode.org/charts/PDF/U1F00.pdf)
+* [古希腊数字](https://unicode.org/charts/PDF/U10140.pdf)
 
 另外，某些不被Unicode算作希腊文但与其有关的符号也会在本文提到。
 
@@ -144,7 +144,7 @@ slug: special-greek-symbols
 
 此区块用于编码古希腊使用的阿提卡数字（Acrophonic numerals），以及其在特罗曾等地区、交易的变体形式，纸莎草学符号（如𐅷表示二分之三）。同时还有一些特殊符号（如𐆌表示正弦曲线）。
 
-例如这些数字都表示50:𐅄𐅦𐅨𐅩
+例如这些数字都表示50：𐅄𐅦𐅨𐅩
 
 ## 其他
 
@@ -182,6 +182,14 @@ slug: special-greek-symbols
 
 ### ⍳⍴⍵⍶⍷⍸⍹⍺
 名称：
+* `APL FUNCTIONAL SYMBOL IOTA`
+* `APL FUNCTIONAL SYMBOL RHO`
+* `APL FUNCTIONAL SYMBOL OMEGA`
+* `APL FUNCTIONAL SYMBOL ALPHA UNDERBAR`
+* `APL FUNCTIONAL SYMBOL EPSILON UNDERBAR`
+* `APL FUNCTIONAL SYMBOL IOTA UNDERBAR`
+* `APL FUNCTIONAL SYMBOL OMEGA UNDERBAR`
+* `APL FUNCTIONAL SYMBOL ALPHA`
 
 均为APL编程语言的符号。
 
