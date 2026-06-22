@@ -17,9 +17,19 @@ slug: tibetian-special-symbols
 
 藏文版的ॐ，也就是“唵嘛呢叭咪吽”中的“唵”。完整写法为ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྂ。[^3]
 
-ཡིག་མགོ
+## ༁༂༃༄༅༆༇
+子区块名称：*Head marks*
+
+这些符号都属于藏文中的字头（ཡིག་མགོ），其中༄༅最为常用，分别为云头符（ཡིག་མགོ་མདུན་མ）和腰云头符（ཡིག་མགོ་སྒབ་མ），云头符用于文本，篇章或是韵文起始处，通常与，作用类似书名号。༂༃为伏藏文本起首符（གཏེར་གིག་མགོ）
+
+## ༌
+名称：`TIBETAN MARK DELIMITER TSHEG BSTAR`
+
+分音符（ཚེག）字符的不间断形式，
 
 ## ༪至༳
+子区块名称：*Digits minus half*
+
 半数值符（གྲངས་ཕྱེད），比较特殊的数字，分别表示0.5，1.5……9.5。
 
 ## 非藏语字符
@@ -66,7 +76,7 @@ slug: tibetian-special-symbols
 | ཁ༹ | χa |
 | ག༹ | ʁa |
 
-在已编码的字符中，官方不推荐使用ཨཱི，ཨཱུ，ཨཷ，ཨཹ，ཨཱྀ
+在已编码的字符中，官方不推荐使用ཨཱི（`TIBETAN VOWEL SIGN II`），ཨཱུ（`TIBETAN VOWEL SIGN UU`），ཨཷ（`TIBETAN VOWEL SIGN VOCALIC RR`），ཨཹ（`TIBETAN VOWEL SIGN VOCALIC LL`），ཨཱྀ（`TIBETAN VOWEL SIGN REVERSED II`）
 
 ## ྈ
 名称：`TIBETAN SIGN LCE TSA CAN`
@@ -106,3 +116,5 @@ slug: tibetian-special-symbols
 [^2]: <https://en.wikipedia.org/wiki/Balti_language#Yige_alphabet>
 
 [^3]: <https://en.wikipedia.org/wiki/Om_mani_padme_hum>
+
+[^4]: <https://zhuanlan.zhihu.com/p/1913577279281399285>
