@@ -19,26 +19,61 @@ slug: special-latin-letters-1
 * 音标拓展
 * 音标拓展补充
 
-## §
+## ªº
+名称：
+* `FEMININE ORDINAL INDICATOR`
+* `MASCULINE ORDINAL INDICATOR`
 
-## ª
-
-## º
+罗曼语族语言的序数指示符。
 
 ## Þþ
 
 ## ĎďĽľŤť
+名称：
+* `LATIN CAPITAL LETTER D WITH CARON`
+* `LATIN SMALL LETTER D WITH CARON`
+* `LATIN CAPITAL LETTER L WITH CARON`
+* `LATIN SMALL LETTER L WITH CARON`
+* `LATIN CAPITAL LETTER T WITH CARON`
+* `LATIN SMALL LETTER T WITH CARON`
+
+虽然这三个字母有的加的是ˇ（`CARON`），有的加的是单引号，但这些字符的名称后缀都是`WITH CARON`，兼容分解形式都是基础字母加上`COMBINING CARON`。
 
 ## ÐĐƉ
+名称：
+* `LATIN CAPITAL LETTER ETH`
+* `LATIN CAPITAL LETTER D WITH STROKE`
+* `LATIN CAPITAL LETTER AFRICAN D`
+
+虽然三者外观相同，但分别代表的是三个不同字母的大写：
+
+
+
 ðđɖ
 
 ## ĢģĶķĻļŖŗ
+名称：
+* `LATIN CAPITAL LETTER G WITH CEDILLA`
+* `LATIN SMALL LETTER G WITH CEDILLA`
+* `LATIN CAPITAL LETTER K WITH CEDILLA`
+* `LATIN SMALL LETTER K WITH CEDILLA`
+* `LATIN CAPITAL LETTER L WITH CEDILLA`
+* `LATIN SMALL LETTER L WITH CEDILLA`
+* `LATIN CAPITAL LETTER R WITH CEDILLA`
+* `LATIN SMALL LETTER R WITH CEDILLA`
 
 ## İı
+名称：
+* `LATIN CAPITAL LETTER I WITH DOT ABOVE`
+* `LATIN SMALL LETTER DOTLESS I`
 
 ## Ĳĳ
+名称：
+* `LATIN CAPITAL LIGATURE IJ`
+* `LATIN SMALL LIGATURE IJ`
 
 ## ĸ
+名称：`LATIN SMALL LETTER KRA`
 
 ## ſ
 
@@ -48,6 +83,8 @@ slug: special-latin-letters-1
 
 ## Ƒƒ
 
+## Ɩɩ
+
 ## Ƕƕ
 𐍈
 
@@ -56,6 +93,8 @@ slug: special-latin-letters-1
 ## Ƞƞ
 
 ## Ƣƣ
+
+## Ʀʀ
 
 ## Ʃʃ
 
