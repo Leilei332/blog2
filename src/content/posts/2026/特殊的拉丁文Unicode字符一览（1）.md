@@ -51,10 +51,12 @@ slug: special-latin-letters-1
 
 ðđɖ
 
-## ĢģĶķĻļŖŗ
+## ĢģŅņĶķĻļŖŗ
 名称：
 * `LATIN CAPITAL LETTER G WITH CEDILLA`
 * `LATIN SMALL LETTER G WITH CEDILLA`
+* `LATIN CAPITAL LETTER N WITH CEDILLA`
+* `LATIN SMALL LETTER N WITH CEDILLA`
 * `LATIN CAPITAL LETTER K WITH CEDILLA`
 * `LATIN SMALL LETTER K WITH CEDILLA`
 * `LATIN CAPITAL LETTER L WITH CEDILLA`
@@ -110,5 +112,7 @@ slug: special-latin-letters-1
 ## ǄǅǆǇǈǉǊǋǌ
 
 ## ȷ
+
+## Ȣȣ
 
 ## ȸȹ
