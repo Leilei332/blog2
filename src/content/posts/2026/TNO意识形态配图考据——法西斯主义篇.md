@@ -1,6 +1,6 @@
 ---
 title: TNO意识形态配图考据—法西斯主义篇
-published: 2026-06-26
+published: 2026-07-06
 tags: 
 - 历史
 slug: tno-ideology-picture-source-fascism
@@ -50,7 +50,7 @@ slug: tno-ideology-picture-source-fascism
 
 爱德华八世为英国国王，于1936年1月即位，在1936年12月因为
 
-P上去的人物应为奥斯瓦尔德•莫斯利（Osward Mosley）。
+P上去的人物应为奥斯瓦尔德•莫斯利（Oswald Mosley），为英国法西斯主义者，创立了法西斯组织“英国法西斯联盟（British Union of Fascists，简称BUF）”。1940年，英国政府查禁不列颠法西斯联盟，莫斯利与其他740名法西斯主义者在二战期间被囚。在战后，莫斯利又组建了一个名为“联合运动（Union Movement）”的政党，在1952年发生诺丁山暴动后，莫斯利借此再次参加选举，但得票率仅为4.6%，因此他在竞选失败后前往法国，不再涉足政治。
 
 ## 法团国家主义
 
@@ -96,7 +96,9 @@ P上去的人物应为奥斯瓦尔德•莫斯利（Osward Mosley）。
 > 
 > 避免具体施政之余，他们常常利用夸张且民粹的言论触及真实或臆想中的不满，以个人魅力顶替实质内容。这通常伴随着大量的腐败、幕后交易和掩盖治理问题的政治噱头——只要能听到领袖的声音，告诉他们一切都会好起来，这一切仿佛都无足轻重。
 
-这是一张美国天主教神父查尔斯•库格林在1936年五月俄亥俄州的克利夫兰市的一个政治机会上演讲的照片。[^2]
+这是一张美国天主教神父查尔斯•库格林在1936年五月俄亥俄州的克利夫兰市的一个政治集会上演讲的照片。[^2]
+
+![](../_images/Father-Charles-E-Coughlin-speaks-in-Ohio-Bettmann-Getty-Images-600x467.jpg)
 
 查尔斯•库格林（Charles E. Coughlin）是一位在
 
@@ -112,7 +114,7 @@ P上去的人物应为奥斯瓦尔德•莫斯利（Osward Mosley）。
 
 这是一张关于巴西整合主义的图片。
 
-
+![](../_images/Integralistas-1.jpg)
 
 ## 新社会主义
 
@@ -142,6 +144,10 @@ P上去的人物应为奥斯瓦尔德•莫斯利（Osward Mosley）。
 
 这是一张与1937年南京大屠杀有关的照片。
 
+![](https://upload.wikimedia.org/wikipedia/commons/8/83/Baoshan1937-Asahi-01.jpg)
+
+这张照片由
+
 https://commons.wikimedia.org/wiki/File:Baoshan1937-Asahi-01.jpg
 
 ## 革命锡安主义
@@ -168,11 +174,15 @@ https://commons.wikimedia.org/wiki/File:Baoshan1937-Asahi-01.jpg
 > 
 > 尽管多年来，为迎合中产阶级，更温和的政策逐渐取代了这一革命精神，但圣墓的火种仍在罗伯托·里奇、乌戈·斯皮里托和埃托雷·穆蒂等党内极端分子心中燃烧。随着穆蒂的迅速掌权，它终于重返政治话语的核心。尽管这一意识形态摇摆不定且难以捉摸，但不可否认它在底层民众与军队中极具煽动力，成为遏制社会主义蔓延的利器。唯有时光能见证它能否成功开启民族狂热与阶级合作的新纪元，抑或再度被历史遗忘。
 
-这是一张
+这是一张1919年“进军阜姆”的照片，中间拄拐杖的人为进军阜姆行动的发起者加布里埃尔·邓南遮。
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a7/Foto_Fiume.jpg)
 
-https://commons.wikimedia.org/wiki/File:Foto_Fiume.jpg
+加布里埃尔·邓南遮（Gabriele d'Annunzio），原名加埃塔诺·拉帕涅塔，意大利诗人、记者、小说家、剧作家和冒险者。出生于佩斯卡拉，创作涵盖诗歌、小说与戏剧，代表作为《玫瑰三部曲》。
+
+1919年11月，邓南遮反对意大利政府在国际和谈中所采取的妥协立场，认为承认意大利东北部与南斯拉夫交界处的阜姆城（现克罗地亚里耶卡）的独立，对战胜国意大利来说是一种“残缺不全的胜利”。于是他策动和指挥了一次向阜姆城进军的行动，率兵占领了阜姆城，建立“意大利卡尔纳罗摄政统治区（Reggenza Italiana del Carnaro）”，并在那个“自由王国”当了一年的首领。后来，意大利政府军为执行国际协议，受命把邓南遮指挥下的军团驱逐出阜姆城，邓南遮在身负轻伤之后退出了阜姆城。[^3]
+
+Wikimedia Commons上可以找到原图：<https://commons.wikimedia.org/wiki/File:Foto_Fiume.jpg>
 
 ## 企业统制
 
@@ -213,3 +223,5 @@ https://commons.wikimedia.org/wiki/File:Sala_delle_conferenze_3.jpg
 [^1]: <https://www.qiuwenbaike.cn/wiki/伊尔贡>
 
 [^2]: <https://sballiance.net.au/believe/father-charles-e-coughlin/>
+
+[^3]: <https://baike.baidu.com/item/%E5%8A%A0%E5%B8%83%E9%87%8C%E5%9F%83%E5%B0%94%C2%B7%E9%82%93%E5%8D%97%E9%81%AE/6055610>
