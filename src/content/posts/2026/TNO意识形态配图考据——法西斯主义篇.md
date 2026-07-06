@@ -7,14 +7,12 @@ slug: tno-ideology-picture-source-fascism
 ---
 
 :::important
-以下各意识形态和开头引用部分来自游戏钢铁雄心4架空世界观模组“新秩序：欧洲末日”（简称TNO），包含基于现实人物的虚构内容，与现实无关，请注意分辨。
+以下各意识形态和意识形态的介绍来自游戏钢铁雄心4架空世界观模组“新秩序：欧洲末日”（简称TNO），包含基于现实人物的虚构内容，与现实无关，请注意分辨。
 :::
 
 :::important
 以下内容包含关于法西斯主义、纳粹主义等极端主义内容，但这不代表作者的政治观点，或是宣扬这些思想。这些内容仅仅用于介绍真实历史。
 :::
-
-这是一篇实验性文章，
 
 ## 法西斯主义（通用意识形态）
 
@@ -25,6 +23,8 @@ slug: tno-ideology-picture-source-fascism
 > 最能强调法西斯主义的特征来源于其推崇的对国家近乎盲从的忠诚。政府通常由某个强人掌控，由他扮演国家的仲裁者与最高权威。宗教机构、工会、私有企业等可能会受许以被限制的形式存在，但他们也必定会奉承国家机关。法西斯政府还会推崇民族传说，讲述一群过去曾光辉一时的优越高贵民族被剥夺了荣誉，并以此要求人民团结一致追回失去的东西。他们会讽刺民主国家守着衰落的尊严不放、社会主义国家则是屈服于落伍退步——但又非常矛盾地将这些国家视为意图夺取或摧毁他们一切珍视之物的威胁。
 
 原图是1922年黑衫军发起的“进军罗马”行动的照片，从左到右的四个主要人物分别为成员*伊塔洛•巴尔博*、*贝尼托•墨索里尼*、*切萨雷•马里亚•德韦基*、*米凯莱•比安基*。
+
+![](../_images/march-on-rome-october-1922-benito-mussolini-and-fascist-blackshirts-during-the-march-private-collection-2J4WNXB.jpg)
 
 * 伊塔洛•巴尔博（Italo Balbo）是前意大利空军元帅，早年参与阿尔卑斯军团，后成为法西斯运动核心成员，1929年任航空部长期间重组意大利空军，被誉为“意大利空军之父”，同年升任空军元帅后被调离空军，转任利比亚总督至1940年，期间推动当地基础设施建设。1940年6月28日其座机在图卜鲁格上空被意军误击坠毁身亡。
 * 米凯莱•比安基（Michele Bianchi）是意大利战斗者法西斯的创始人之一，参与起草该运动早期纲领，在墨索里尼政府担任公共工程部副部长等职务。
@@ -52,7 +52,7 @@ slug: tno-ideology-picture-source-fascism
 
 P上去的人物应为奥斯瓦尔德•莫斯利（Oswald Mosley），为英国法西斯主义者，创立了法西斯组织“英国法西斯联盟（British Union of Fascists，简称BUF）”。1940年，英国政府查禁不列颠法西斯联盟，莫斯利与其他740名法西斯主义者在二战期间被囚。在战后，莫斯利又组建了一个名为“联合运动（Union Movement）”的政党，在1952年发生诺丁山暴动后，莫斯利借此再次参加选举，但得票率仅为4.6%，因此他在竞选失败后前往法国，不再涉足政治。
 
-Wikimedia Commons上的原图：<https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-17964,_Ordensburg_Kr%C3%B6ssinsee,_Herzog_von_Windsor.jpg>
+Wikimedia Commons上的原图：[File:Bundesarchiv Bild 102-17964, Ordensburg Krössinsee, Herzog von Windsor.jpg](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-17964,_Ordensburg_Kr%C3%B6ssinsee,_Herzog_von_Windsor.jpg)
 
 ## 法团国家主义
 
@@ -64,7 +64,7 @@ Wikimedia Commons上的原图：<https://commons.wikimedia.org/wiki/File:Bundesa
 > 
 > 经济由以产业为基础的法团组成，同时囊括工人和雇主，这些团体则作为他们在国家面前的代表。在部分人看来，这造就了一个等级分明、谈不上民主的国家；而在另一些人看来，这是一种有机的民主形式，在这种制度下，普通民众的不同利益可以得到充分的接纳，而不像多数派民主那样容易忽视少数群体的需求。尽管法团制度或许带有压制性和极权色彩，但反对的声音往往被淹没在无声的海洋之中。
 
-原图拍摄的是1943年东京的大东亚会议（日语全称：大東亜結集国民大会），
+原图拍摄的是1943年东京的大东亚会议（日语全称：大東亜結集国民大会）。
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a4/Tokyo_conference_1943_tribune.jpg)
 
