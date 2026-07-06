@@ -30,8 +30,6 @@ slug: tno-ideology-picture-source-fascism
 * 米凯莱•比安基（Michele Bianchi）是意大利战斗者法西斯的创始人之一，参与起草该运动早期纲领，在墨索里尼政府担任公共工程部副部长等职务。
 * 切萨雷•马里亚•德韦基（Cesare Maria De Vecchi）是黑衫军领袖之一，党内属温和派和保王派，1923年至1928年担任意属索马里总督，也担任国意大利的一些高层职务，在1943年因投票罢免墨索里尼而被意大利社会共和国缺席判处死刑，因此流亡阿根廷，1949年回国加入新法西斯政党，但未担任职务。
 
-TODO:
-
 ## 贵族法西斯主义
 
 ![](https://static.wikitide.net/tnowiki/e/e3/Fascism_aristocratic_fascism.png)
@@ -53,6 +51,8 @@ TODO:
 爱德华八世（Edward VIII）为英国国王，于1936年1月即位，因为他决心与美国平民华里斯•辛普森（Wallis Simpson）结婚而在同年12月退位。同时，由于两人的亲德倾向和在1937年访问德国的事件，因此
 
 P上去的人物应为奥斯瓦尔德•莫斯利（Oswald Mosley），为英国法西斯主义者，创立了法西斯组织“英国法西斯联盟（British Union of Fascists，简称BUF）”。1940年，英国政府查禁不列颠法西斯联盟，莫斯利与其他740名法西斯主义者在二战期间被囚。在战后，莫斯利又组建了一个名为“联合运动（Union Movement）”的政党，在1952年发生诺丁山暴动后，莫斯利借此再次参加选举，但得票率仅为4.6%，因此他在竞选失败后前往法国，不再涉足政治。
+
+Wikimedia Commons上的原图：<https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-17964,_Ordensburg_Kr%C3%B6ssinsee,_Herzog_von_Windsor.jpg>
 
 ## 法团国家主义
 
@@ -170,7 +170,7 @@ Wikimedia Commons上可以找到原图：<https://commons.wikimedia.org/wiki/Fil
 
 > History Repeats Itself - The Robber Barons of the Middle Ages, and the Robber Barons of To-day.
 
-TODO:
+![](../_images/robber-barons-1889-nhistory-repeats-itself-the-robber-barons-of-the-FFA9AA.jpg)
 
 标题可译为“历史重演——中世纪的强盗贵族，与今日的强盗贵族。”。“Robber Barons”为历史术语，原指中世纪欧洲横征暴敛的封建领主，后引申为19世纪末美国垄断资本巨头（如卡内基、洛克菲勒等）。[^5]
 
@@ -182,9 +182,17 @@ TODO:
 
 此意识形态在`v1.7.0b`更新中被通用的“贵族法西斯主义”意识形态替代。
 
+第一张原图为国王查理斯屋（King Charles House）上的纹章：
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Charles_II_escape_house_sign.jpg/960px-Charles_II_escape_house_sign.jpg)
+
+在伍斯特战役中，查理二世在1651年9月3日通过此房间出逃。
+
+Wikimedia Commons上可以找到原图：<https://commons.wikimedia.org/wiki/File:Coat_of_Arms_on_King_Charles_House_-_geograph.org.uk_-_4807568.jpg>
+
 这个意识形态的安德鲁•方丹版本的子意识形态的配图又是被P过的。原图为1934年6月7日奥斯瓦尔德•莫斯利领导的英国法西斯联盟在伦敦奥林匹亚举行的大型集会：
 
-TODO:
+![](../_images/cover_desktop_max-mosley-oxford-and-the-corrosion-of-academic-integrity.jpg)
 
 这场集会约有10000人参加，其中包括2000名莫斯利的“黑衫军”，集会期间反法西斯主义者混入会场并打断莫斯利演讲，随后遭到法西斯护卫队的暴力驱逐，被称为“奥林匹亚骚乱”（Olympia Riot）。
 
