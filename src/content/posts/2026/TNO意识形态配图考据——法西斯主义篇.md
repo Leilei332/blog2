@@ -26,9 +26,11 @@ slug: tno-ideology-picture-source-fascism
 
 原图是1922年黑衫军发起的“进军罗马”行动的照片，从左到右的四个主要人物分别为成员*伊塔洛•巴尔博*、*贝尼托•墨索里尼*、*切萨雷•马里亚•德韦基*、*米凯莱•比安基*。
 
-* 伊塔洛•巴尔博（Italo Baldo）是前意大利空军元帅，早年参与阿尔卑斯军团，后成为法西斯运动核心成员，
-* 米凯莱•比安基（Michele Bianchi）是
-* 切萨雷•马里亚•德韦基（Cesare Maria De Vecchi）
+* 伊塔洛•巴尔博（Italo Balbo）是前意大利空军元帅，早年参与阿尔卑斯军团，后成为法西斯运动核心成员，1929年任航空部长期间重组意大利空军，被誉为“意大利空军之父”，同年升任空军元帅后被调离空军，转任利比亚总督至1940年，期间推动当地基础设施建设。1940年6月28日其座机在图卜鲁格上空被意军误击坠毁身亡。
+* 米凯莱•比安基（Michele Bianchi）是意大利战斗者法西斯的创始人之一，参与起草该运动早期纲领，在墨索里尼政府担任公共工程部副部长等职务。
+* 切萨雷•马里亚•德韦基（Cesare Maria De Vecchi）是黑衫军领袖之一，党内属温和派和保王派，1923年至1928年担任意属索马里总督，也担任国意大利的一些高层职务，在1943年因投票罢免墨索里尼而被意大利社会共和国缺席判处死刑，因此流亡阿根廷，1949年回国加入新法西斯政党，但未担任职务。
+
+TODO:
 
 ## 贵族法西斯主义
 
@@ -48,7 +50,7 @@ slug: tno-ideology-picture-source-fascism
 
 罗伯特•莱伊（Robert Ley）为纳粹德国时期的重要政治人物，在1925年加入纳粹党，二战曾任“德意志劳工阵线”（Deutsche Arbeitsfront, DAF）领导人，也是纳粹党重要书籍《纳粹党组织手册（Organisationsbuch der NSDAP）》的作者。1945年被美军逮捕，在纽伦堡审判开庭一周后自杀身亡。
 
-爱德华八世为英国国王，于1936年1月即位，在1936年12月因为
+爱德华八世（Edward VIII）为英国国王，于1936年1月即位，因为他决心与美国平民华里斯•辛普森（Wallis Simpson）结婚而在同年12月退位。同时，由于两人的亲德倾向和在1937年访问德国的事件，因此
 
 P上去的人物应为奥斯瓦尔德•莫斯利（Oswald Mosley），为英国法西斯主义者，创立了法西斯组织“英国法西斯联盟（British Union of Fascists，简称BUF）”。1940年，英国政府查禁不列颠法西斯联盟，莫斯利与其他740名法西斯主义者在二战期间被囚。在战后，莫斯利又组建了一个名为“联合运动（Union Movement）”的政党，在1952年发生诺丁山暴动后，莫斯利借此再次参加选举，但得票率仅为4.6%，因此他在竞选失败后前往法国，不再涉足政治。
 
@@ -100,21 +102,9 @@ P上去的人物应为奥斯瓦尔德•莫斯利（Oswald Mosley），为英国
 
 ![](../_images/Father-Charles-E-Coughlin-speaks-in-Ohio-Bettmann-Getty-Images-600x467.jpg)
 
-查尔斯•库格林（Charles E. Coughlin）是一位在
+查尔斯•库格林（Charles E. Coughlin）是一位在加拿大裔美国天主教神父，1916年被任命为天主教神父。1926年，他成为密歇根州皇家橡树镇“小花圣殿”教堂的牧师。为了应对来自三K党的威胁和为教堂筹集资金，他开始尝试利用电台进行广播。凭借其富有魅力的口才，他的节目迅速走红，到1930年已通过CBS（哥伦比亚广播公司）实现全国联播。
 
-## 整合主义
-
-![](https://static.wikitide.net/tnowiki/6/62/Fascism_integralism.png)
-
-> 整合主义有诸多变体，往往受其拥护者自身所处的环境所影响。然而，其核心原则近乎一致，诞生自相同的基础：坚定的原教旨主义与传统的天主教。
-> 
-> 整合主义拒斥启蒙运动所带来的价值，拒斥世俗化、民主与自由。与拥抱“进步”和变革相反，整合主义者坚持认为人民重拾道德与尊严的唯一道路，就是在以对天主坚定信仰为基础的社会中，回归中世纪式的苦耕。
-> 
-> 基于社会整体如人体般依存运作的概念，整合主义并非脱胎自古老理想对光明未来的期望，而是要不择手段地让辉煌的过去重临人间，尽管这辉煌通常只存在于想象中。
-
-这是一张关于巴西整合主义的图片。
-
-![](../_images/Integralistas-1.jpg)
+之后库格林广播内容从宗教逐步转向政治和经济，早期以经济民粹主义者形象出现，在1932年坚定支持富兰克林•罗斯福，但罗斯福当选后因未能如愿获得政策影响力而与之决裂。之后他立场立刻转向极端，其言论越来越充满仇恨，公开散步反犹主义言论，同时反对美国参与二战，称其为“犹太人的战争”。在1942年被美国司法部因违反《间谍法》剥夺邮寄权，同时底特律大主教也命令其停止政治活动，之后库洛林便退出了公共视野。[^4]
 
 ## 新社会主义
 
@@ -133,22 +123,6 @@ P上去的人物应为奥斯瓦尔德•莫斯利（Oswald Mosley），为英国
 这是1942年德国占领下的比利时的一张政治宣传画，用于招募比利时法语区的工人为德国工作。上部分为挥舞锤子的工人和挥舞手榴弹的德国士兵，下部分为一个丑化过的犹太人，同时衣服上包含英国国旗、美国国旗和共产主义标志，体现出其反共主义、反犹主义思想。标语为Avec l'ouvrier soldat pour le socialisme，意为“与工人战士一起为社会主义”。
 
 原图可以在Wikimedia Commons上找到：[Avec l'ouvrier soldat pour le socialisme.jpg](https://commons.wikimedia.org/wiki/File:Avec_l%27ouvrier_soldat_pour_le_socialisme.jpg)
-
-## 革新官僚
-
-![](https://static.wikitide.net/tnowiki/3/35/Fascism_reform_bureaucracy.png)
-
-> 同大多数列强一样，日本在战间期也面临了严重的社会撕裂。毕竟在第一次世界大战仅仅六十年前，日本还处于闭关锁国的封建社会，而现在它俨然已经是一个工业发达的现代民族国家了。高速的国家转型自然带来了一系列暂时的难题，尤其集中于经济领域。毕竟，如今自由市场的状况始于长期的自然放任式发展，而革命社会主义的到来更是进一步加剧了原本就已存在的社会问题。因此，“革新官僚”这一独特的日本现象，得以趁着风云变幻的时代局势、各类意识形态的实验和对外殖民经验的交汇中崛起。
-> 
-> 虽然它的名字毫不引人注目，但革新官僚的传统相当残酷，他们会无情地榨取一切资源，日本的傀儡政权满洲国便是最好的证明：毫无掩饰的非人道措施、接纳法团主义，甚至还带有一定的法西斯色彩。对革新官僚而言，经济不过是一堆数字与无数运作良好的机器齿轮，一堆完全服务于国家备战动员的齿轮。通过借鉴德意志帝国末期的“总体战”经济、魏玛共和国的“经济规范化”政策和多数强硬社会主义者推崇的计划经济模式，革新官僚得以勾勒出自己的最终目标：使经济完全服从于国家需求，让军事和行政官僚成为最主要的受益者。
-
-这是一张与1937年南京大屠杀有关的照片。
-
-![](https://upload.wikimedia.org/wikipedia/commons/8/83/Baoshan1937-Asahi-01.jpg)
-
-这张照片由
-
-https://commons.wikimedia.org/wiki/File:Baoshan1937-Asahi-01.jpg
 
 ## 革命锡安主义
 
@@ -174,7 +148,7 @@ https://commons.wikimedia.org/wiki/File:Baoshan1937-Asahi-01.jpg
 > 
 > 尽管多年来，为迎合中产阶级，更温和的政策逐渐取代了这一革命精神，但圣墓的火种仍在罗伯托·里奇、乌戈·斯皮里托和埃托雷·穆蒂等党内极端分子心中燃烧。随着穆蒂的迅速掌权，它终于重返政治话语的核心。尽管这一意识形态摇摆不定且难以捉摸，但不可否认它在底层民众与军队中极具煽动力，成为遏制社会主义蔓延的利器。唯有时光能见证它能否成功开启民族狂热与阶级合作的新纪元，抑或再度被历史遗忘。
 
-这是一张1919年“进军阜姆”的照片，中间拄拐杖的人为进军阜姆行动的发起者加布里埃尔·邓南遮。
+这是一张1919年“进军阜姆”的照片，中间拄拐杖的人为进军阜姆行动的发起者加布里埃尔·邓南遮：
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a7/Foto_Fiume.jpg)
 
@@ -192,36 +166,46 @@ Wikimedia Commons上可以找到原图：<https://commons.wikimedia.org/wiki/Fil
 > 
 > 尽管寡头企业那取之不尽、用之不竭的资本流通在企业国家的每一根血管之中——其他国家可压根不敢做此想象——政府依然享有特权：哪怕企业的触手早已蔓生至社会的各个领域，其庞大需求亦不可忽视，但它们的欲望与计谋最终还是受制于一位特定领导人的想法。即使私人企业统治了经济与社会生活的方方面面，这国家的巨舵依然仅由一双手来牢牢把握，使众人为了盈利之上的某种目的而努力。不论是劳动力还是资本，都要随那舵手的心意！
 
-https://dp.la/item/221dfac366c9c72bc8800f1803c29cd3
+这是美国画家Samuel D. Ehrhart在1889年画的一副讽刺资本家的画作，下方标题为：
+
+> History Repeats Itself - The Robber Barons of the Middle Ages, and the Robber Barons of To-day.
+
+TODO:
+
+标题可译为“历史重演——中世纪的强盗贵族，与今日的强盗贵族。”。“Robber Barons”为历史术语，原指中世纪欧洲横征暴敛的封建领主，后引申为19世纪末美国垄断资本巨头（如卡内基、洛克菲勒等）。[^5]
 
 ## 英式法西斯主义（已移除）
 
 ![](https://static.wikitide.net/tnowiki/0/06/Fascism_british_fascism.png)
 
-
+![](https://static.wikitide.net/tnowiki/2/28/Fascism_british_fascism_fountaine.png)
 
 此意识形态在`v1.7.0b`更新中被通用的“贵族法西斯主义”意识形态替代。
 
-这个意识形态的安德鲁•方丹版本的子意识形态的配图又是被P过的。
+这个意识形态的安德鲁•方丹版本的子意识形态的配图又是被P过的。原图为1934年6月7日奥斯瓦尔德•莫斯利领导的英国法西斯联盟在伦敦奥林匹亚举行的大型集会：
 
-## 新法西斯主义（已移除）
+TODO:
 
-![](https://static.wikitide.net/tnowiki/7/7e/Fascism_neofascism.png)
-
-此意识形态在`v1.7.0`“深冻行动”中被移除。
+这场集会约有10000人参加，其中包括2000名莫斯利的“黑衫军”，集会期间反法西斯主义者混入会场并打断莫斯利演讲，随后遭到法西斯护卫队的暴力驱逐，被称为“奥林匹亚骚乱”（Olympia Riot）。
 
 ## 国家工团主义（已移除）
 
 ![](https://static.wikitide.net/tnowiki/c/ce/Fascism_national_syndicalism.png)
 
-这是意大利艺术家内黛塔·卡帕（Benedetta Cappa，1897-1977）的三个未来主义风格作品，从左到右名称分别为《陆路通信综合（Sintesi delle comunicazioni terrestri）》，《海洋通信综合（Sintesi delle comunicazioni marittime）》，《空中通信综合（Sintesi delle comunicazioni aeree）》。
+这是意大利艺术家贝内黛塔·卡帕（Benedetta Cappa，1897-1977）在1933-1934年为巴勒莫邮政宫（Palazzo delle Poste in Palermo）会议厅创作的未来主义壁画系列《通信的综合》（Sintesi delle comunicazioni），从左到右的三个作品的名称分别为《陆路通信综合（Sintesi delle comunicazioni terrestri）》，《海洋通信综合（Sintesi delle comunicazioni marittime）》，《空中通信综合（Sintesi delle comunicazioni aeree）》。这些壁画以蓝绿色调描绘了陆地、海洋、无线电等不同形式的通信，将未来主义的科技崇拜与一种空灵、和谐的精神愿景相结合：
 
 ![参考照片](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Sala_delle_conferenze_3.jpg/1280px-Sala_delle_conferenze_3.jpg)
 
-https://commons.wikimedia.org/wiki/File:Sala_delle_conferenze_3.jpg
+她的丈夫菲利波·托马索·马里内蒂（Filippo Tommaso Marinetti）则更加知名，他是未来主义的创始人，1909年在巴黎发表《未来主义宣言》，同时他也是一个法西斯主义者，积极鼓吹并参加一战，从1919年起积极参与法西斯党的活动，在1944年病逝。
+
+Wikimedia Commons上此画作的照片：<https://commons.wikimedia.org/wiki/File:Sala_delle_conferenze_3.jpg>
 
 [^1]: <https://www.qiuwenbaike.cn/wiki/伊尔贡>
 
 [^2]: <https://sballiance.net.au/believe/father-charles-e-coughlin/>
 
 [^3]: <https://baike.baidu.com/item/%E5%8A%A0%E5%B8%83%E9%87%8C%E5%9F%83%E5%B0%94%C2%B7%E9%82%93%E5%8D%97%E9%81%AE/6055610>
+
+[^4]: <https://encyclopedia.ushmm.org/content/en/article/charles-e-coughlin?trk=article-ssr-frontend-pulse_little-text-block>
+
+[^5]: <https://dp.la/item/221dfac366c9c72bc8800f1803c29cd3>
