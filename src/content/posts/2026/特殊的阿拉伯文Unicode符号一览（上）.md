@@ -37,6 +37,8 @@ slug: arabic-special-symbols-1
 
 控制字符，标记年份开始。与前面的字符同样有特殊渲染方式：ا ؁۱۲۳۴
 
+## 
+
 ا ؂۱۲۳۴
 
 ا ؀۱۲۳۴
@@ -49,6 +51,25 @@ slug: arabic-special-symbols-1
 
 了解波斯语的人会对这个字符比较熟悉。
 
+## ٵ ٶ ٷ ٸ
+这些字符都是阿拉伯文版的哈萨克语中的字符，属于子区快*Digraphic letters for Kazakh*，目前仅中国的哈萨克族还在使用阿拉伯文书写的哈萨克语。
+
+对照表：
+
+| 阿拉伯文 | 西里尔文 | 拉丁文（2021） |
+|-|-|-|
+| ٴا | Әә | Ää |
+|  ٴو | Өө | Öö |
+| ٴۇ | Үү | Üü |
+|  ٴى | Іі | Iı |
+
+
+另外，这些字符的兼容分解形式的字符顺序是相反的，如ٵ的兼容分解形式为اٴ（ا排在前面），在这个子区块提到：
+
+> These characters were encoded for Kazakh digraphs, but their compatibility decompsitions do not reflect the preferred order of representation.
+
+字符的介绍中也有“preferred spelling is...”的说明，因此这些字符的兼容分解形式是错的，Unicode官方因此推荐使用两字符的形式（也就是   ٴ（`ARABIC LETTER HIGH HAMZA`）加上元音字母的形式）。
+
 ## ی
 名称：`ARABIC LETTER FARSI YEH`
 
@@ -58,6 +79,8 @@ slug: arabic-special-symbols-1
 |-|-|-|-|-|
 | ALEF MAKSURA | ى | ىـ | ـىـ | ـى |
 | FARSI YEH | ی | یـ | ـیـ | ـی |
+
+实际上这个字符是波斯语中的ي，其独立式和前连式中的两点会消失。
 
 ## ـ
 名称：`ARABIC TATWEEL`
@@ -80,7 +103,7 @@ slug: arabic-special-symbols-1
 | HEH GOAL | ہ | ہـ | ـہـ | ـہ |
 | AE | ە | 无 | 无 | ـە |
 
-以下均为《古兰经》中所使用的符号
+ھ ە则是突厥语族中
 
 ## ۝
 古兰经中的章节结束符号，通常以里面加数字的形式使用，如ا ۝١
