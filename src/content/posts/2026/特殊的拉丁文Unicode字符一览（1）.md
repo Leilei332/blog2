@@ -120,7 +120,7 @@ slug: special-latin-letters-1
 
 这个字符是s在历史上的变体，是s在单词开头和中间的写法。由于易与字母f混淆，逐渐变得不常用。
 
-顺带一提，德语中使用的ß字母本来就是ſs的连字。[^2]
+顺带一提，德语中使用的ß字母本来是ſs的连字。[^2]
 
 ## ƂƃƄƅƋƌƧƨƼƽƜɯ
 名称：
@@ -138,6 +138,21 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER TURNED M`
 * `LATIN SMALL LETTER TURNED M`
 
+都是壮语曾使用的字符，在1982年被ASCII拉丁字符代替：
+
+| 旧版 | 新版 |
+|-|-|
+| Ƃ ƃ | Mb mb |
+| Ƅ ƅ | H h |
+| Ƌ ƌ | Nd nd |
+| Ƨ ƨ | Z z |
+| Ƽ ƽ | Q q |
+| Ɯ ɯ | W w |
+
+## ƍ
+
+曾用于表示唇化齿龈擦音，现已被/zʷ/和/z̫/代替。
+
 ## ƏəƎǝ
 名称：
 
@@ -145,6 +160,11 @@ slug: special-latin-letters-1
 * `LATIN SMALL LETTER SCHWA`
 * `LATIN CAPITAL LETTER REVERSED E`
 * `LATIN SMALL LETTER TURNED E`
+ 
+虽然两者的小写形式的外观相似，但表示的是不同字母：
+
+* Əə用于许多突厥语系语言的正字法中，如阿塞拜疆语，“新维文”等。
+* Ǝǝ则用于[泛尼日利亚字母](https://www.qiuwenbaike.cn/wiki/泛尼日利亚字母)
 
 ## Ƒƒ
 名称：
@@ -157,6 +177,10 @@ slug: special-latin-letters-1
 
 * `LATIN CAPITAL LETTER IOTA`
 * `LATIN SMALL LETTER IOTA`
+
+注意：这个字符源于希腊字母Iota（ι），但不是希腊字母。
+
+用于非洲语言的字符，如Gurunɛ，Kabiyé和Mossi。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
 
 ## Ƕƕ
 名称：
@@ -177,6 +201,10 @@ slug: special-latin-letters-1
 
 * `LATIN CAPITAL LETTER N WITH LONG RIGHT LEG`
 * `LATIN SMALL LETTER N WITH LONG RIGHT LEG`
+
+## ƛ
+
+## Ɵɵ
 
 ## Ƣƣ
 名称：
@@ -208,6 +236,14 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER UPSILON`
 * `LATIN SMALL LETTER UPSILON`
 
+## Ƹƹ
+
+## ƺ
+
+## ƻ
+
+虽然这个字符的外观是一个中间有线的2，但是这个字符实际上是一个音标，曾用于表示/dz/音，之后被/ʒ/和/dz/代替。
+
 ## Ƿƿ
 名称：
 
@@ -223,7 +259,7 @@ slug: special-latin-letters-1
 * `LATIN LETTER LATERAL CLICK`
 * `LATIN LETTER RETROFLEX CLICK`
 
-**这个字符不是竖线、感叹号。**
+**这些字符不是|（`VERTICAL LINE`）、!（`EXCLAMATION MARK`）。**
 
 ## ǄǅǆǇǈǉǊǋǌ
 名称：
@@ -238,8 +274,10 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER N WITH SMALL LETTER J`
 * `LATIN SMALL LETTER NJ`
 
-## ȷ
-名称：`LATIN SMALL LETTER DOTLESS J`
+均为南斯拉夫语族的语言使用的拉丁字母
+
+## Ȝȝ
+
 
 ## Ȣȣ
 名称：
