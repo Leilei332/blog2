@@ -1,6 +1,6 @@
 ---
 title: 特殊的拉丁文Unicode字符一览（1）
-published: 2026-06-28
+published: 2026-07-30
 tags: 
 - Unicode
 slug: special-latin-letters-1
@@ -48,6 +48,8 @@ slug: special-latin-letters-1
 
 虽然这三个字母有的加的是ˇ（`CARON`），有的加的是单引号，但这些字符的名称后缀都是`WITH CARON`，兼容分解形式都是基础字母加上`COMBINING CARON`。
 
+这些字母是捷克语和斯洛伐克语使用的字母。
+
 > the form using apostrophe is preferred in typesetting
 
 ## ÐĐƉ
@@ -85,7 +87,7 @@ slug: special-latin-letters-1
 
 也就是说这些字符应该是下面加上逗号的形式。其中的一个例外是ģ，因为在底部加上逗号会造成排版问题，所以这个逗号以翻转的形式加在了上面。
 
-另外，罗马尼亚语的字符也类似，但由于其他语言有类似ş的字符，因此罗马尼亚语使用的ș的名称与兼容分解形式是符合外形的。
+另外，罗马尼亚语的字符也类似，但由于有其他语言（如土耳其语）使用ş字符，因此罗马尼亚语使用的ș的名称与兼容分解形式是符合外形的。
 
 ## İı
 名称：
@@ -150,6 +152,7 @@ slug: special-latin-letters-1
 | Ɯ ɯ | W w |
 
 ## ƍ
+名称：`LATIN SMALL LETTER TURNED DELTA`
 
 曾用于表示唇化齿龈擦音，现已被/zʷ/和/z̫/代替。
 
@@ -171,6 +174,8 @@ slug: special-latin-letters-1
 
 * `LATIN CAPITAL LETTER F WITH HOOK`
 * `LATIN SMALL LETTER F WITH HOOK`
+
+这个字母用于非洲的语言。其小写形式外观与f的手写体相同，可表示函数的符号和荷兰的货币符号。
 
 ## Ɩɩ
 名称：
@@ -202,9 +207,24 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER N WITH LONG RIGHT LEG`
 * `LATIN SMALL LETTER N WITH LONG RIGHT LEG`
 
-## ƛ
+## Ƛƛ
+名称：`LATIN SMALL LETTER LAMBDA WITH STROKE`
+
+这个字母的大写版本加入时间非常晚，是在2024年的Unicode 16.0版本。
+
+
 
 ## Ɵɵ
+名称：
+
+* `LATIN CAPITAL LETTER O WITH MIDDLE TILDE`
+* `LATIN SMALL LETTER BARRED O`
+
+有趣的是，这个字母的大小写中的名称不同，一个是`WITH MIDDLE TILDE`，一个是`BARRED`。根据官方文档的描述：
+
+> the formal name does not describe the glyph
+
+可推测`BARRED`是更加适合的名称。
 
 ## Ƣƣ
 名称：
@@ -237,12 +257,25 @@ slug: special-latin-letters-1
 * `LATIN SMALL LETTER UPSILON`
 
 ## Ƹƹ
+名称：
+
+* `LATIN CAPITAL LETTER EZH REVERSED`
+* `LATIN SMALL LETTER EZH REVERSED`
 
 ## ƺ
+名称：`LATIN SMALL LETTER EZH WITH TAIL`
+
+旧版国际音标，现被/ʒʷ/和/jʷ/代替。
 
 ## ƻ
+名称：`LATIN LETTER TWO WITH STROKE`
 
 虽然这个字符的外观是一个中间有线的2，但是这个字符实际上是一个音标，曾用于表示/dz/音，之后被/ʒ/和/dz/代替。
+
+## ƾ
+名称：`LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE`
+
+旧版国际音标，现已被/ts/代替。官方文档中还提到这其实是一个ts连字，而不是加了一横的ʖ。
 
 ## Ƿƿ
 名称：
@@ -250,16 +283,22 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER WYNN`
 * `LATIN LETTER WYNN`
 
-ᚹ
+这个字符来源于卢恩字母ᚹ，在古英语中被使用，之后被w字母代替。
 
-## ǀǁǃ
+## ǀǁǂǃ
 名称：
 
 * `LATIN LETTER DENTAL CLICK`
 * `LATIN LETTER LATERAL CLICK`
 * `LATIN LETTER RETROFLEX CLICK`
 
-**这些字符不是|（`VERTICAL LINE`）、!（`EXCLAMATION MARK`）。**
+:::important
+这些字符不是|（`VERTICAL LINE`）、‖（`DOUBLE VERTICAL LINE`）、⧧（`THERMODYNAMIC`）、!（`EXCLAMATION MARK`）。
+:::
+
+这些字符的类别是`Lo`（其他字母）而不是`Sm`（符号），均被用于音标。
+
+
 
 ## ǄǅǆǇǈǉǊǋǌ
 名称：
@@ -274,9 +313,13 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER N WITH SMALL LETTER J`
 * `LATIN SMALL LETTER NJ`
 
-均为南斯拉夫语族的语言使用的拉丁字母
+均为南斯拉夫语族的语言使用的字母。
 
 ## Ȝȝ
+名称：
+
+* `LATIN CAPITAL LETTER YOGH`
+* `LATIN SMALL LETTER YOGH`
 
 
 ## Ȣȣ
@@ -290,6 +333,13 @@ slug: special-latin-letters-1
 
 * `LATIN SMALL LETTER DB DIGRAPH`
 * `LATIN SMALL LETTER QP DIGRAPH`
+
+## Ɂɂʔ
+名称：
+
+* `LATIN CAPITAL LETTER GLOTTAL STOP`
+* `LATIN SMALL LETTER GLOTTAL STOP`
+* `LATIN LETTER GLOTTAL STOP`
 
 [^1]: <https://en.wikipedia.org/wiki/%C4%B8>
 
