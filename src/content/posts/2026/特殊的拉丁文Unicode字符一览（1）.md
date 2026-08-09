@@ -1,6 +1,6 @@
 ---
 title: 特殊的拉丁文Unicode字符一览（1）
-published: 2026-07-30
+published: 2026-08-10
 tags: 
 - Unicode
 slug: special-latin-letters-1
@@ -64,6 +64,9 @@ slug: special-latin-letters-1
 * Ðð，字母ETH，是一个曾被古英语，现在被冰岛语、法罗语等语言使用的字符。小写形式也被用于国际音标表示同样的发音。
 * Đđ则被用于萨米语、越南语和塞尔维亚（—克罗地亚）语的拉丁字母版本（同西里尔字母ђ）。
 * Ɖɖ作用同名称，用于非洲的语言，小写形式也在国际音标中表示卷舌爆发音。
+
+## Þþ
+
 
 ## ĢģŅņĶķĻļŖŗ
 名称：
@@ -167,7 +170,7 @@ slug: special-latin-letters-1
 虽然两者的小写形式的外观相似，但表示的是不同字母：
 
 * Əə用于许多突厥语系语言的正字法中，如阿塞拜疆语，“新维文”等。
-* Ǝǝ则用于[泛尼日利亚字母](https://www.qiuwenbaike.cn/wiki/泛尼日利亚字母)
+* Ǝǝ则是倒过来的Ee，用于[泛尼日利亚字母](https://www.qiuwenbaike.cn/wiki/泛尼日利亚字母)
 
 ## Ƒƒ
 名称：
@@ -185,7 +188,7 @@ slug: special-latin-letters-1
 
 注意：这个字符源于希腊字母Iota（ι），但不是希腊字母。
 
-用于非洲语言的字符，如Gurunɛ，Kabiyé和Mossi。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
+用于非洲语言的字符，如Gurunɛ，Kabiyé和Mossi等。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
 
 ## Ƕƕ
 名称：
@@ -201,6 +204,8 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER GAMMA`
 * `LATIN SMALL LETTER GAMMA`
 
+这个字母的小写形式被用作音标 
+
 ## Ƞƞ
 名称：
 
@@ -212,7 +217,7 @@ slug: special-latin-letters-1
 
 这个字母的大写版本加入时间非常晚，是在2024年的Unicode 16.0版本。
 
-
+这个字符曾在
 
 ## Ɵɵ
 名称：
@@ -224,7 +229,7 @@ slug: special-latin-letters-1
 
 > the formal name does not describe the glyph
 
-可推测`BARRED`是更加适合的名称。
+推测`BARRED`是更加适合的名称。
 
 ## Ƣƣ
 名称：
@@ -248,13 +253,17 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER ESH`
 * `LATIN SMALL LETTER ESH`
 
-
+这个字母大写形式外观与希腊字母Σ相同，小写形式在1847年由Isaac Pitman引入用于表示清颚龈擦音（即sh的发音）。1928年这两个字母加入了[非洲字母表](https://en.wikipedia.org/wiki/Africa_Alphabet)，Ʃ被确定为大写形式。
 
 ## Ʊʊ
 名称：
 
 * `LATIN CAPITAL LETTER UPSILON`
 * `LATIN SMALL LETTER UPSILON`
+
+这个字母用于[非洲参考字母表](https://en.wikipedia.org/wiki/African_Reference_Alphabet)，其小写形式在国际音标中代表次闭次厚唇元音。
+
+其Unicode名称Upsilon来源于历史学家Geoffrey Pullum将其解释为希腊字母υ的变体。
 
 ## Ƹƹ
 名称：
@@ -298,7 +307,7 @@ slug: special-latin-letters-1
 
 这些字符的类别是`Lo`（其他字母）而不是`Sm`（符号），均被用于音标。
 
-
+ǀ表示
 
 ## ǄǅǆǇǈǉǊǋǌ
 名称：
@@ -328,6 +337,11 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER OU`
 * `LATIN SMALL LETTER OU`
 
+## ȷ
+名称：`LATIN SMALL LETTER DOTLESS J`
+
+无点j。这个字母无大写，主要用于瑞典方言字母表（Landsmålsalfabetet）。
+
 ## ȸȹ
 名称：
 
@@ -346,3 +360,5 @@ slug: special-latin-letters-1
 [^2]: <https://www.qiuwenbaike.cn/wiki/长s>
 
 [^3]: <https://www.qiuwenbaike.cn/wiki/Ʀ>
+
+[^4]: <https://en.wikipedia.org/wiki/J>
