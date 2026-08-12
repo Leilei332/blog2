@@ -27,7 +27,7 @@ slug: special-latin-letters-1
 * `FEMININE ORDINAL INDICATOR`
 * `MASCULINE ORDINAL INDICATOR`
 
-罗曼语族语言的序数指示符。如
+分别为罗曼语族语言的阴性与阳性序数指示符，在部分字体中会带有下划线以避免混淆。如意大利语中1ª表示阴性第一，2ª表示阴性第二，1º表示阴性第一。在西班牙语和葡萄牙语中则为1.ª，2.ª，1.º。
 
 这两个字母与a和o分别为兼容等价关系。
 
@@ -46,11 +46,13 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER T WITH CARON`
 * `LATIN SMALL LETTER T WITH CARON`
 
-虽然这三个字母有的加的是ˇ（`CARON`），有的加的是单引号，但这些字符的名称后缀都是`WITH CARON`，兼容分解形式都是基础字母加上`COMBINING CARON`。
+虽然这三个字母有的加的是抑扬符ˇ（`CARON`），有的加的是单引号，但这些字符的名称后缀都是`WITH CARON`，兼容分解形式都是基础字母加上`COMBINING CARON`。
 
-这些字母是捷克语和斯洛伐克语使用的字母。
+这些字母是捷克语和斯洛伐克语使用的字母，由于里面的一些字母顶部放不下抑扬符，因此排版使用了一种引号的变体代替。官方文档也提到：
 
 > the form using apostrophe is preferred in typesetting
+
+关于ˇ这个符号还有一个有趣的事实：Unicode官方提到`CARON`这个名称并非一个准确的名称，更准确的名称是háček，而caron则是早期标准发明出来的。[^5]
 
 ## ÐĐƉ
 名称：
@@ -63,10 +65,7 @@ slug: special-latin-letters-1
 
 * Ðð，字母ETH，是一个曾被古英语，现在被冰岛语、法罗语等语言使用的字符。小写形式也被用于国际音标表示同样的发音。
 * Đđ则被用于萨米语、越南语和塞尔维亚（—克罗地亚）语的拉丁字母版本（同西里尔字母ђ）。
-* Ɖɖ作用同名称，用于非洲的语言，小写形式也在国际音标中表示卷舌爆发音。
-
-## Þþ
-
+* Ɖɖ作用同名称，存在于[非洲字母表]，用于非洲的语言，小写形式也在国际音标中表示卷舌爆发音。
 
 ## ĢģŅņĶķĻļŖŗ
 名称：
@@ -178,7 +177,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER F WITH HOOK`
 * `LATIN SMALL LETTER F WITH HOOK`
 
-这个字母用于非洲的语言。其小写形式外观与f的手写体相同，可表示函数的符号和荷兰的货币符号。
+这个字母用于非洲的语言，存在于[非洲字母表]中。其小写形式外观与f的手写体相同，可表示函数的符号和荷兰的货币符号。
 
 ## Ɩɩ
 名称：
@@ -188,7 +187,7 @@ slug: special-latin-letters-1
 
 注意：这个字符源于希腊字母Iota（ι），但不是希腊字母。
 
-用于非洲语言的字符，如Gurunɛ，Kabiyé和Mossi等。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
+用于非洲语言的字符，存在于如Gurunɛ，Kabiyé和Mossi等。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
 
 ## Ƕƕ
 名称：
@@ -204,7 +203,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER GAMMA`
 * `LATIN SMALL LETTER GAMMA`
 
-这个字母的小写形式被用作音标 
+这个字母的小写形式被用作音标
 
 ## Ƞƞ
 名称：
@@ -239,6 +238,8 @@ slug: special-latin-letters-1
 
 这个字母曾用于一些突厥语系语言的拉丁文正字法中，如阿塞拜疆语，在我之前写的[从旧字典发现的旧拉丁维文](../old-latin-uyghur/)中提到的“新维文”也使用了这些字符。现在已被Ğğ等字符代替。
 
+另外，Unicode官方提到字符名称中的`OI`实际上是错误的，这个字符的发音与发音都与oi没有关系，这个字符的名称应为`GHA`。[^5]
+
 ## Ʀʀ
 名称：
 
@@ -253,7 +254,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER ESH`
 * `LATIN SMALL LETTER ESH`
 
-这个字母大写形式外观与希腊字母Σ相同，小写形式在1847年由Isaac Pitman引入用于表示清颚龈擦音（即sh的发音）。1928年这两个字母加入了[非洲字母表](https://en.wikipedia.org/wiki/Africa_Alphabet)，Ʃ被确定为大写形式。
+这个字母大写形式外观与希腊字母Σ相同，小写形式在1847年由Isaac Pitman引入用于表示清颚龈擦音（即sh的发音），之后加入了国际音标。1928年这两个字母加入了[非洲字母表]，Ʃ被确定为大写形式。
 
 ## Ʊʊ
 名称：
@@ -284,7 +285,7 @@ slug: special-latin-letters-1
 ## ƾ
 名称：`LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE`
 
-旧版国际音标，现已被/ts/代替。官方文档中还提到这其实是一个ts连字，而不是加了一横的ʖ。
+旧版国际音标，现已被/ts/代替。官方文档中还提到这其实是一个ts连字，而不是加了一横的ʖ。[^5]
 
 ## Ƿƿ
 名称：
@@ -299,6 +300,7 @@ slug: special-latin-letters-1
 
 * `LATIN LETTER DENTAL CLICK`
 * `LATIN LETTER LATERAL CLICK`
+* `LATIN LETTER ALVEOLAR CLICK`
 * `LATIN LETTER RETROFLEX CLICK`
 
 :::important
@@ -307,7 +309,7 @@ slug: special-latin-letters-1
 
 这些字符的类别是`Lo`（其他字母）而不是`Sm`（符号），均被用于音标。
 
-ǀ表示
+ǀ表示齿吸气音，相当于祖鲁语中字母c的发音；ǁ表示边吸气音，相当于祖鲁语中字母x的发音；ǂ表示齿龈吸气音；ǃ表示卷舌吸气音，相当于祖鲁语中q的发音。
 
 ## ǄǅǆǇǈǉǊǋǌ
 名称：
@@ -355,6 +357,8 @@ slug: special-latin-letters-1
 * `LATIN SMALL LETTER GLOTTAL STOP`
 * `LATIN LETTER GLOTTAL STOP`
 
+[非洲字母表]: <https://en.wikipedia.org/wiki/Africa_Alphabet>
+
 [^1]: <https://en.wikipedia.org/wiki/%C4%B8>
 
 [^2]: <https://www.qiuwenbaike.cn/wiki/长s>
@@ -362,3 +366,5 @@ slug: special-latin-letters-1
 [^3]: <https://www.qiuwenbaike.cn/wiki/Ʀ>
 
 [^4]: <https://en.wikipedia.org/wiki/J>
+
+[^5]: <https://www.unicode.org/notes/tn27/>
