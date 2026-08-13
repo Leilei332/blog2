@@ -212,11 +212,12 @@ slug: special-latin-letters-1
 * `LATIN SMALL LETTER N WITH LONG RIGHT LEG`
 
 ## Ƛƛ
-名称：`LATIN SMALL LETTER LAMBDA WITH STROKE`
+名称：
 
-这个字母的大写版本加入时间非常晚，是在2024年的Unicode 16.0版本。
+* `LATIN CAPITAL LETTER LAMBDA WITH STROKE`
+* `LATIN SMALL LETTER LAMBDA WITH STROKE`
 
-这个字符曾在
+这个字母的大写版本加入时间非常晚，是在2024年的Unicode 16.0版本。主要用于美洲语言学，用途包括表示发音，转写。在物理学中有时用来表示约化康普顿波长（reduced Compton wavelength）。
 
 ## Ɵɵ
 名称：
@@ -238,7 +239,7 @@ slug: special-latin-letters-1
 
 这个字母曾用于一些突厥语系语言的拉丁文正字法中，如阿塞拜疆语，在我之前写的[从旧字典发现的旧拉丁维文](../old-latin-uyghur/)中提到的“新维文”也使用了这些字符。现在已被Ğğ等字符代替。
 
-另外，Unicode官方提到字符名称中的`OI`实际上是错误的，这个字符的发音与发音都与oi没有关系，这个字符的名称应为`GHA`。[^5]
+另外，Unicode官方提到字符名称中的`OI`实际上是错误的，这个字符的外观与发音都与oi没有关系，这个字符的名称应为`GHA`。[^5]
 
 ## Ʀʀ
 名称：
@@ -332,6 +333,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER YOGH`
 * `LATIN SMALL LETTER YOGH`
 
+这是一个被古英语和古苏格兰语使用的字母，表示多种发音，之后由于印刷不支持此字母，在英语中被gh代替，在苏格兰语中被z代替。
 
 ## Ȣȣ
 名称：
