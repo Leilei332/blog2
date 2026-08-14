@@ -3,6 +3,7 @@ title: 特殊的拉丁文Unicode字符一览（1）
 published: 2026-08-14
 tags: 
 - Unicode
+- 语言
 slug: special-latin-letters-1
 ---
 
@@ -11,15 +12,15 @@ slug: special-latin-letters-1
 :::
 
 拉丁文包含13个区块：
-* 基本拉丁文（ASCII）
-* Latin-1补充
-* 拓展A、B、C、D、E、F、G
-* 附加拓展
-* IPA拓展
-* 音标拓展
-* 音标拓展补充
+* [基本拉丁文（ASCII）](https://unicode.org/charts/PDF/U0000.pdf)
+* [Latin-1补充](https://unicode.org/charts/PDF/U0080.pdf)
+* 拓展[A](https://unicode.org/charts/PDF/U0100.pdf)、[B](https://unicode.org/charts/PDF/U0180.pdf)、[C](https://unicode.org/charts/PDF/U2C60.pdf)、[D](https://unicode.org/charts/PDF/UA720.pdf)、[E](https://unicode.org/charts/PDF/UAB30.pdf)、[F](https://unicode.org/charts/PDF/U10780.pdf)、[G](https://unicode.org/charts/PDF/U1DF00.pdf)
+* [附加拓展](https://unicode.org/charts/PDF/U1E00.pdf)
+* [IPA拓展](https://unicode.org/charts/PDF/U0250.pdf)
+* [音标拓展](https://unicode.org/charts/PDF/U1D00.pdf)
+* [音标拓展补充](https://unicode.org/charts/PDF/U1D80.pdf)
 
-本文讲的是基本拉丁文、Latin-1补充和拓展A、B区块的内容，其他区块中的字符也有可能因关联提到。
+本文讲的是基本拉丁文、Latin-1补充和拓展A、B区块的内容，其他区块中的字符也有可能因为关联提到。
 
 ## ªº
 名称：
@@ -177,7 +178,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER OPEN E`
 * `LATIN SMALL LETTER OPEN E`
 
-这个字母的外观来源于希腊字母ε，在16世纪由意大利学者Gian Giorgio Trissino引入，其小写形式在国际音标中表示半开前不圆唇元音。这个字母也包含在[非洲参考字母表]中。
+这个字母的外观来源于希腊字母ε，在16世纪由意大利学者Gian Giorgio Trissino引入，其小写形式在国际音标中表示半开前不圆唇元音。这个字母也包含在[非洲参考字母表]中，广泛地被非洲语言使用。
 
 Unicode官方提到`EPSILON`是比`OPEN E`更加准确的名称。[^5]
 
@@ -197,7 +198,7 @@ Unicode官方提到`EPSILON`是比`OPEN E`更加准确的名称。[^5]
 
 注意：这个字符源于希腊字母Iota（ι），但不是希腊字母。
 
-用于非洲语言的字符，存在于如Gurunɛ，Kabiyé和Mossi等。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
+用于非洲语言的字符，存在于Gurunɛ，Kabiyé和Mossi等非洲语言。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
 
 ## Ƕƕ
 名称：
