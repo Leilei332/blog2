@@ -1,6 +1,6 @@
 ---
 title: 特殊的拉丁文Unicode字符一览（1）
-published: 2026-08-10
+published: 2026-08-14
 tags: 
 - Unicode
 slug: special-latin-letters-1
@@ -171,6 +171,16 @@ slug: special-latin-letters-1
 * Əə用于许多突厥语系语言的正字法中，如阿塞拜疆语，“新维文”等。
 * Ǝǝ则是倒过来的Ee，用于[泛尼日利亚字母](https://www.qiuwenbaike.cn/wiki/泛尼日利亚字母)
 
+## Ɛɛ
+名称：
+
+* `LATIN CAPITAL LETTER OPEN E`
+* `LATIN SMALL LETTER OPEN E`
+
+这个字母的外观来源于希腊字母ε，在16世纪由意大利学者Gian Giorgio Trissino引入，其小写形式在国际音标中表示半开前不圆唇元音。这个字母也包含在[非洲参考字母表]中。
+
+Unicode官方提到`EPSILON`是比`OPEN E`更加准确的名称。[^5]
+
 ## Ƒƒ
 名称：
 
@@ -203,7 +213,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER GAMMA`
 * `LATIN SMALL LETTER GAMMA`
 
-这个字母的小写形式被用作音标
+根据名称可以知道这个字母源自希腊字母γ。这个字母包含在[非洲字母表]中，并广泛地被非洲语言使用。小写形式在国际音标中表示浊软腭擦音。
 
 ## Ƞƞ
 名称：
@@ -211,13 +221,15 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER N WITH LONG RIGHT LEG`
 * `LATIN SMALL LETTER N WITH LONG RIGHT LEG`
 
+曾用于国际音标和拉科塔语正字法中，后被ŋ替代，现已废弃。 
+
 ## Ƛƛ
 名称：
 
 * `LATIN CAPITAL LETTER LAMBDA WITH STROKE`
 * `LATIN SMALL LETTER LAMBDA WITH STROKE`
 
-这个字母的大写版本加入时间非常晚，是在2024年的Unicode 16.0版本。主要用于美洲语言学，用途包括表示发音，转写。在物理学中有时用来表示约化康普顿波长（reduced Compton wavelength）。
+这个字母的大写版本加入时间非常晚，是在2024年的Unicode 16.0版本。这个字母主要用于美洲语言学，用途包括表示发音，转写。在物理学中有时用来表示约化康普顿波长（reduced Compton wavelength）。
 
 ## Ɵɵ
 名称：
@@ -225,11 +237,11 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER O WITH MIDDLE TILDE`
 * `LATIN SMALL LETTER BARRED O`
 
-有趣的是，这个字母的大小写中的名称不同，一个是`WITH MIDDLE TILDE`，一个是`BARRED`。根据官方文档的描述：
+这是一个用于突厥语族的拉丁字母，表示发音/œ/，包含在“统一突厥字母表”中，在1939年苏联推行西里尔化后，这个字母在大多数语言中被西里尔字母Ө（`CYRILLIC CAPITAL LETTER BARRED O`）取代。这个字母也被“新维文”使用过，也出现在非洲参考字母表中。
+
+有趣的是，这个字母的大小写中的名称不同，一个是`WITH MIDDLE TILDE`，一个是`BARRED`。不过官方文档的描述：
 
 > the formal name does not describe the glyph
-
-推测`BARRED`是更加适合的名称。
 
 ## Ƣƣ
 名称：
@@ -255,7 +267,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER ESH`
 * `LATIN SMALL LETTER ESH`
 
-这个字母大写形式外观与希腊字母Σ相同，小写形式在1847年由Isaac Pitman引入用于表示清颚龈擦音（即sh的发音），之后加入了国际音标。1928年这两个字母加入了[非洲字母表]，Ʃ被确定为大写形式。
+这个字母大写形式外观来自于希腊字母Σ，小写形式在1847年由Isaac Pitman引入用于表示清颚龈擦音（即sh的发音），之后加入了国际音标。1928年这两个字母加入了[非洲字母表]，Ʃ被确定为大写形式。
 
 ## Ʊʊ
 名称：
@@ -263,7 +275,7 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER UPSILON`
 * `LATIN SMALL LETTER UPSILON`
 
-这个字母用于[非洲参考字母表](https://en.wikipedia.org/wiki/African_Reference_Alphabet)，其小写形式在国际音标中代表次闭次厚唇元音。
+这个字母用于[非洲参考字母表]，其小写形式在国际音标中代表次闭次厚唇元音。
 
 其Unicode名称Upsilon来源于历史学家Geoffrey Pullum将其解释为希腊字母υ的变体。
 
@@ -272,6 +284,8 @@ slug: special-latin-letters-1
 
 * `LATIN CAPITAL LETTER EZH REVERSED`
 * `LATIN SMALL LETTER EZH REVERSED`
+
+虽然这个字母看起来是Ʒ的水平翻转，但实际上这个字母来源于阿拉伯字母ع。这个字母曾用于转写阿拉伯语，也曾用来表示浊咽擦音/ʕ/，现已废弃。
 
 ## ƺ
 名称：`LATIN SMALL LETTER EZH WITH TAIL`
@@ -341,6 +355,10 @@ slug: special-latin-letters-1
 * `LATIN CAPITAL LETTER OU`
 * `LATIN SMALL LETTER OU`
 
+这个字母其实原本是希腊字母ου的连字，在拉丁字母中则用于北美原住民语言和乌拉尔语系音标中。
+
+有趣的是，这个字符没有在希腊语区块单独编码，因为它被认为仅仅是字体层面的连字。[^6]
+
 ## ȷ
 名称：`LATIN SMALL LETTER DOTLESS J`
 
@@ -352,6 +370,8 @@ slug: special-latin-letters-1
 * `LATIN SMALL LETTER DB DIGRAPH`
 * `LATIN SMALL LETTER QP DIGRAPH`
 
+虽然名称写的是“合成符（Digraph）”，但官方提到这实际上是一个连字[^5]。这两个字符主要用于转录非洲语言的特定发音，ȸ代表浊唇齿塞音，国际音标通常记为[b̪]；ȹ代表清唇齿塞音，国际音标通常记为[p̪]。
+
 ## Ɂɂʔ
 名称：
 
@@ -359,7 +379,14 @@ slug: special-latin-letters-1
 * `LATIN SMALL LETTER GLOTTAL STOP`
 * `LATIN LETTER GLOTTAL STOP`
 
+这三个字符都代表喉塞音，但使用场景不同：
+
+* ʔ无大小写，主要用作音标，也用在没有大小写区分的语言正字法中。
+* Ɂɂ则是一对大小写字母，用于特定语言的实际拼写中（如阿萨巴斯卡语系）
+
 [非洲字母表]: <https://en.wikipedia.org/wiki/Africa_Alphabet>
+
+[非洲参考字母表]: <https://en.wikipedia.org/wiki/African_Reference_Alphabet>
 
 [^1]: <https://en.wikipedia.org/wiki/%C4%B8>
 
@@ -370,3 +397,5 @@ slug: special-latin-letters-1
 [^4]: <https://en.wikipedia.org/wiki/J>
 
 [^5]: <https://www.unicode.org/notes/tn27/>
+
+[^6]: <https://en.wikipedia.org/wiki/Ȣ>
