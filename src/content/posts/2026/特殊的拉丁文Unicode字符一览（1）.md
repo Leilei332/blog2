@@ -1,0 +1,402 @@
+---
+title: 特殊的拉丁文Unicode字符一览（1）
+published: 2026-08-14
+tags: 
+- Unicode
+- 语言
+slug: special-latin-letters-1
+---
+
+:::note
+本文不包含同区块的控制字符、空格字符和标点符号信息。
+:::
+
+拉丁文包含13个区块：
+* [基本拉丁文（ASCII）](https://unicode.org/charts/PDF/U0000.pdf)
+* [Latin-1补充](https://unicode.org/charts/PDF/U0080.pdf)
+* 拓展[A](https://unicode.org/charts/PDF/U0100.pdf)、[B](https://unicode.org/charts/PDF/U0180.pdf)、[C](https://unicode.org/charts/PDF/U2C60.pdf)、[D](https://unicode.org/charts/PDF/UA720.pdf)、[E](https://unicode.org/charts/PDF/UAB30.pdf)、[F](https://unicode.org/charts/PDF/U10780.pdf)、[G](https://unicode.org/charts/PDF/U1DF00.pdf)
+* [附加拓展](https://unicode.org/charts/PDF/U1E00.pdf)
+* [IPA拓展](https://unicode.org/charts/PDF/U0250.pdf)
+* [音标拓展](https://unicode.org/charts/PDF/U1D00.pdf)
+* [音标拓展补充](https://unicode.org/charts/PDF/U1D80.pdf)
+
+本文讲的是基本拉丁文、Latin-1补充和拓展A、B区块的内容，其他区块中的字符也有可能因为关联提到。
+
+## ªº
+名称：
+
+* `FEMININE ORDINAL INDICATOR`
+* `MASCULINE ORDINAL INDICATOR`
+
+分别为罗曼语族语言的阴性与阳性序数指示符，在部分字体中会带有下划线以避免混淆。如意大利语中1ª表示阴性第一，2ª表示阴性第二，1º表示阴性第一。在西班牙语和葡萄牙语中则为1.ª，2.ª，1.º。
+
+这两个字母与a和o分别为兼容等价关系。
+
+## Þþ
+名称：`LATIN * LETTER THORN`
+
+这是一个曾用于古诺斯克语、古英语，现用于冰岛语和语言转写的字符。这个字母源于卢恩字母ᚦ，之后被连字th替代。在冰岛语中通常表示[θ̠]音。
+
+## ĎďĽľŤť
+名称：
+
+* `LATIN CAPITAL LETTER D WITH CARON`
+* `LATIN SMALL LETTER D WITH CARON`
+* `LATIN CAPITAL LETTER L WITH CARON`
+* `LATIN SMALL LETTER L WITH CARON`
+* `LATIN CAPITAL LETTER T WITH CARON`
+* `LATIN SMALL LETTER T WITH CARON`
+
+虽然这三个字母有的加的是抑扬符ˇ（`CARON`），有的加的是单引号，但这些字符的名称后缀都是`WITH CARON`，兼容分解形式都是基础字母加上`COMBINING CARON`。
+
+这些字母是捷克语和斯洛伐克语使用的字母，由于里面的一些字母顶部放不下抑扬符，因此排版使用了一种引号的变体代替。官方文档也提到：
+
+> the form using apostrophe is preferred in typesetting
+
+关于ˇ这个符号还有一个有趣的事实：Unicode官方提到`CARON`这个名称并非一个准确的名称，更准确的名称是háček，而caron则是早期标准发明出来的。[^5]
+
+## ÐĐƉ
+名称：
+
+* `LATIN CAPITAL LETTER ETH`
+* `LATIN CAPITAL LETTER D WITH STROKE`
+* `LATIN CAPITAL LETTER AFRICAN D`
+
+虽然三者外观相同，但分别代表的是三个不同字母的大写：
+
+* Ðð，字母ETH，是一个曾被古英语，现在被冰岛语、法罗语等语言使用的字符。小写形式也被用于国际音标表示同样的发音。
+* Đđ则被用于萨米语、越南语和塞尔维亚（—克罗地亚）语的拉丁字母版本（同西里尔字母ђ）。
+* Ɖɖ作用同名称，存在于[非洲字母表]，用于非洲的语言，小写形式也在国际音标中表示卷舌爆发音。
+
+## ĢģŅņĶķĻļŖŗ
+名称：
+
+* `LATIN CAPITAL LETTER G WITH CEDILLA`
+* `LATIN SMALL LETTER G WITH CEDILLA`
+* `LATIN CAPITAL LETTER N WITH CEDILLA`
+* `LATIN SMALL LETTER N WITH CEDILLA`
+* `LATIN CAPITAL LETTER K WITH CEDILLA`
+* `LATIN SMALL LETTER K WITH CEDILLA`
+* `LATIN CAPITAL LETTER L WITH CEDILLA`
+* `LATIN SMALL LETTER L WITH CEDILLA`
+* `LATIN CAPITAL LETTER R WITH CEDILLA`
+* `LATIN SMALL LETTER R WITH CEDILLA`
+
+这些字母虽然外观都是基础字母加上逗号，但名称结尾都是`WITH CEDILLA`，并且兼容分解形式也是相应字母加上`COMBINING CEDILLA`（¸的结合版本）。
+
+之所以这样，是因为这些字母用于拉脱维亚语中，这些字母加上逗号表示对于辅音的软腭化，因此被早期编码标准规为了与ç一类的字符,在官方文档中提到：
+
+> despite their names, this pair of characters should normally be displayed with a comma below
+
+也就是说这些字符应该是下面加上逗号的形式。其中的一个例外是ģ，因为在底部加上逗号会造成排版问题，所以这个逗号以翻转的形式加在了上面。
+
+另外，罗马尼亚语的字符也类似，但由于有其他语言（如土耳其语）使用ş字符，因此罗马尼亚语使用的ș的名称与兼容分解形式是符合外形的。
+
+## İı
+名称：
+
+* `LATIN CAPITAL LETTER I WITH DOT ABOVE`
+* `LATIN SMALL LETTER DOTLESS I`
+
+这些字母用于土耳其语等一些突厥语言的正字法中，用于İi，Iı两个字母。
+
+顺带一提，由于这与主要语言以Ii为一对字母是冲突的，这成为了一个麻烦的本地化问题。现有解决以Javascript为例有：
+
+* [.toLocaleUpperCase](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase)
+* [Intl.Collator](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator)
+
+## Ĳĳ
+名称：
+
+* `LATIN CAPITAL LIGATURE IJ`
+* `LATIN SMALL LIGATURE IJ`
+
+荷兰语ij连字。在荷兰语中，ij为一个字母，表示元音[ɛi]。
+
+## ĸ
+名称：`LATIN SMALL LETTER KRA`
+
+这是一个用于格陵兰语和拉布拉多因纽特语方言的字母，在格陵兰语中其大写为*K'*。在1973年格陵兰语拼写改革后便被q代替。
+
+此字符也在国际音标中表示清小舌塞音。[^1]
+
+## ſ
+名称：`LATIN SMALL LETTER LONG S`
+
+这个字符是s在历史上的变体，是s在单词开头和中间的写法。由于易与字母f混淆，逐渐变得不常用。
+
+顺带一提，德语中使用的ß字母本来是ſs的连字。[^2]
+
+## ƂƃƄƅƋƌƧƨƼƽƜɯ
+名称：
+
+* `LATIN CAPITAL LETTER B WITH TOPBAR`
+* `LATIN SMALL LETTER B WITH TOPBAR`
+* `LATIN CAPITAL LETTER TONE SIX`
+* `LATIN SMALL LETTER TONE SIX`
+* `LATIN CAPITAL LETTER D WITH TOPBAR`
+* `LATIN SMALL LETTER D WITH TOPBAR`
+* `LATIN CAPITAL LETTER TONE TWO`
+* `LATIN SMALL LETTER TONE TWO`
+* `LATIN CAPITAL LETTER TONE FIVE`
+* `LATIN SMALL LETTER TONE FIVE`
+* `LATIN CAPITAL LETTER TURNED M`
+* `LATIN SMALL LETTER TURNED M`
+
+都是壮语曾使用的字符，在1982年被ASCII拉丁字符代替：
+
+| 旧版 | 新版 |
+|-|-|
+| Ƃ ƃ | Mb mb |
+| Ƅ ƅ | H h |
+| Ƌ ƌ | Nd nd |
+| Ƨ ƨ | Z z |
+| Ƽ ƽ | Q q |
+| Ɯ ɯ | W w |
+
+## ƍ
+名称：`LATIN SMALL LETTER TURNED DELTA`
+
+曾用于表示唇化齿龈擦音，现已被/zʷ/和/z̫/代替。
+
+## ƏəƎǝ
+名称：
+
+* `LATIN CAPITAL LETTER SCHWA`
+* `LATIN SMALL LETTER SCHWA`
+* `LATIN CAPITAL LETTER REVERSED E`
+* `LATIN SMALL LETTER TURNED E`
+ 
+虽然两者的小写形式的外观相似，但表示的是不同字母：
+
+* Əə用于许多突厥语系语言的正字法中，如阿塞拜疆语，“新维文”等。
+* Ǝǝ则是倒过来的Ee，用于[泛尼日利亚字母](https://www.qiuwenbaike.cn/wiki/泛尼日利亚字母)
+
+## Ɛɛ
+名称：
+
+* `LATIN CAPITAL LETTER OPEN E`
+* `LATIN SMALL LETTER OPEN E`
+
+这个字母的外观来源于希腊字母ε，在16世纪由意大利学者Gian Giorgio Trissino引入，其小写形式在国际音标中表示半开前不圆唇元音。这个字母也包含在[非洲参考字母表]中，广泛地被非洲语言使用。
+
+Unicode官方提到`EPSILON`是比`OPEN E`更加准确的名称。[^5]
+
+## Ƒƒ
+名称：
+
+* `LATIN CAPITAL LETTER F WITH HOOK`
+* `LATIN SMALL LETTER F WITH HOOK`
+
+这个字母用于非洲的语言，存在于[非洲字母表]中。其小写形式外观与f的手写体相同，可表示函数的符号和荷兰的货币符号。
+
+## Ɩɩ
+名称：
+
+* `LATIN CAPITAL LETTER IOTA`
+* `LATIN SMALL LETTER IOTA`
+
+注意：这个字符源于希腊字母Iota（ι），但不是希腊字母。
+
+用于非洲语言的字符，存在于Gurunɛ，Kabiyé和Mossi等非洲语言。同时小写形式曾在国际音标中表示元音，之后被ɪ代替。
+
+## Ƕƕ
+名称：
+
+* `LATIN CAPITAL LETTER HWAIR`
+* `LATIN SMALL LETTER HV`
+
+用于转写哥特字母𐍈，表示[hʷ]或[ʍ]发音。
+
+## Ɣɣ
+名称：
+
+* `LATIN CAPITAL LETTER GAMMA`
+* `LATIN SMALL LETTER GAMMA`
+
+根据名称可以知道这个字母源自希腊字母γ。这个字母包含在[非洲字母表]中，并广泛地被非洲语言使用。小写形式在国际音标中表示浊软腭擦音。
+
+## Ƞƞ
+名称：
+
+* `LATIN CAPITAL LETTER N WITH LONG RIGHT LEG`
+* `LATIN SMALL LETTER N WITH LONG RIGHT LEG`
+
+曾用于国际音标和拉科塔语正字法中，后被ŋ替代，现已废弃。 
+
+## Ƛƛ
+名称：
+
+* `LATIN CAPITAL LETTER LAMBDA WITH STROKE`
+* `LATIN SMALL LETTER LAMBDA WITH STROKE`
+
+这个字母的大写版本加入时间非常晚，是在2024年的Unicode 16.0版本。这个字母主要用于美洲语言学，用途包括表示发音，转写。在物理学中有时用来表示约化康普顿波长（reduced Compton wavelength）。
+
+## Ɵɵ
+名称：
+
+* `LATIN CAPITAL LETTER O WITH MIDDLE TILDE`
+* `LATIN SMALL LETTER BARRED O`
+
+这是一个用于突厥语族的拉丁字母，表示发音/œ/，包含在“统一突厥字母表”中，在1939年苏联推行西里尔化后，这个字母在大多数语言中被西里尔字母Ө（`CYRILLIC CAPITAL LETTER BARRED O`）取代。这个字母也被“新维文”使用过，也出现在非洲参考字母表中。
+
+有趣的是，这个字母的大小写中的名称不同，一个是`WITH MIDDLE TILDE`，一个是`BARRED`。不过官方文档的描述：
+
+> the formal name does not describe the glyph
+
+## Ƣƣ
+名称：
+
+* `LATIN CAPITAL LETTER OI`
+* `LATIN SMALL LETTER OI`
+
+这个字母曾用于一些突厥语系语言的拉丁文正字法中，如阿塞拜疆语，在我之前写的[从旧字典发现的旧拉丁维文](../old-latin-uyghur/)中提到的“新维文”也使用了这些字符。现在已被Ğğ等字符代替。
+
+另外，Unicode官方提到字符名称中的`OI`实际上是错误的，这个字符的外观与发音都与oi没有关系，这个字符的名称应为`GHA`。[^5]
+
+## Ʀʀ
+名称：
+
+* `LATIN LETTER YR`
+* `LATIN LETTER SMALL CAPITAL R`
+
+曾被古诺斯克语使用的字符，也是卢恩字母ᛦ的转写。小写形式也在国际音标中表示小舌颤音。
+
+## Ʃʃ
+名称：
+
+* `LATIN CAPITAL LETTER ESH`
+* `LATIN SMALL LETTER ESH`
+
+这个字母大写形式外观来自于希腊字母Σ，小写形式在1847年由Isaac Pitman引入用于表示清颚龈擦音（即sh的发音），之后加入了国际音标。1928年这两个字母加入了[非洲字母表]，Ʃ被确定为大写形式。
+
+## Ʊʊ
+名称：
+
+* `LATIN CAPITAL LETTER UPSILON`
+* `LATIN SMALL LETTER UPSILON`
+
+这个字母用于[非洲参考字母表]，其小写形式在国际音标中代表次闭次厚唇元音。
+
+其Unicode名称Upsilon来源于历史学家Geoffrey Pullum将其解释为希腊字母υ的变体。
+
+## Ƹƹ
+名称：
+
+* `LATIN CAPITAL LETTER EZH REVERSED`
+* `LATIN SMALL LETTER EZH REVERSED`
+
+虽然这个字母看起来是Ʒ的水平翻转，但实际上这个字母来源于阿拉伯字母ع。这个字母曾用于转写阿拉伯语，也曾用来表示浊咽擦音/ʕ/，现已废弃。
+
+## ƺ
+名称：`LATIN SMALL LETTER EZH WITH TAIL`
+
+旧版国际音标，现被/ʒʷ/和/jʷ/代替。
+
+## ƻ
+名称：`LATIN LETTER TWO WITH STROKE`
+
+虽然这个字符的外观是一个中间有线的2，但是这个字符实际上是一个音标，曾用于表示/dz/音，之后被/ʒ/和/dz/代替。
+
+## ƾ
+名称：`LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE`
+
+旧版国际音标，现已被/ts/代替。官方文档中还提到这其实是一个ts连字，而不是加了一横的ʖ。[^5]
+
+## Ƿƿ
+名称：
+
+* `LATIN CAPITAL LETTER WYNN`
+* `LATIN LETTER WYNN`
+
+这个字符来源于卢恩字母ᚹ，在古英语中被使用，之后被w字母代替。
+
+## ǀǁǂǃ
+名称：
+
+* `LATIN LETTER DENTAL CLICK`
+* `LATIN LETTER LATERAL CLICK`
+* `LATIN LETTER ALVEOLAR CLICK`
+* `LATIN LETTER RETROFLEX CLICK`
+
+:::important
+这些字符不是|（`VERTICAL LINE`）、‖（`DOUBLE VERTICAL LINE`）、⧧（`THERMODYNAMIC`）、!（`EXCLAMATION MARK`）。
+:::
+
+这些字符的类别是`Lo`（其他字母）而不是`Sm`（符号），均被用于音标。
+
+ǀ表示齿吸气音，相当于祖鲁语中字母c的发音；ǁ表示边吸气音，相当于祖鲁语中字母x的发音；ǂ表示齿龈吸气音；ǃ表示卷舌吸气音，相当于祖鲁语中q的发音。
+
+## ǄǅǆǇǈǉǊǋǌ
+名称：
+
+* `LATIN CAPITAL LETTER DZ WITH CARON`
+* `LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON`
+* `LATIN SMALL LETTER DZ WITH CARON`
+* `LATIN CAPITAL LETTER LJ`
+* `LATIN CAPITAL LETTER L WITH SMALL LETTER J`
+* `LATIN SMALL LETTER LJ`
+* `LATIN CAPITAL LETTER NJ`
+* `LATIN CAPITAL LETTER N WITH SMALL LETTER J`
+* `LATIN SMALL LETTER NJ`
+
+均为南斯拉夫语族的语言使用的字母。
+
+## Ȝȝ
+名称：
+
+* `LATIN CAPITAL LETTER YOGH`
+* `LATIN SMALL LETTER YOGH`
+
+这是一个被古英语和古苏格兰语使用的字母，表示多种发音，之后由于印刷不支持此字母，在英语中被gh代替，在苏格兰语中被z代替。
+
+## Ȣȣ
+名称：
+
+* `LATIN CAPITAL LETTER OU`
+* `LATIN SMALL LETTER OU`
+
+这个字母其实原本是希腊字母ου的连字，在拉丁字母中则用于北美原住民语言和乌拉尔语系音标中。
+
+有趣的是，这个字符没有在希腊语区块单独编码，因为它被认为仅仅是字体层面的连字。[^6]
+
+## ȷ
+名称：`LATIN SMALL LETTER DOTLESS J`
+
+无点j。这个字母无大写，主要用于瑞典方言字母表（Landsmålsalfabetet）。
+
+## ȸȹ
+名称：
+
+* `LATIN SMALL LETTER DB DIGRAPH`
+* `LATIN SMALL LETTER QP DIGRAPH`
+
+虽然名称写的是“合成符（Digraph）”，但官方提到这实际上是一个连字[^5]。这两个字符主要用于转录非洲语言的特定发音，ȸ代表浊唇齿塞音，国际音标通常记为[b̪]；ȹ代表清唇齿塞音，国际音标通常记为[p̪]。
+
+## Ɂɂʔ
+名称：
+
+* `LATIN CAPITAL LETTER GLOTTAL STOP`
+* `LATIN SMALL LETTER GLOTTAL STOP`
+* `LATIN LETTER GLOTTAL STOP`
+
+这三个字符都代表喉塞音，但使用场景不同：
+
+* ʔ无大小写，主要用作音标，也用在没有大小写区分的语言正字法中。
+* Ɂɂ则是一对大小写字母，用于特定语言的实际拼写中（如阿萨巴斯卡语系）
+
+[非洲字母表]: <https://en.wikipedia.org/wiki/Africa_Alphabet>
+
+[非洲参考字母表]: <https://en.wikipedia.org/wiki/African_Reference_Alphabet>
+
+[^1]: <https://en.wikipedia.org/wiki/%C4%B8>
+
+[^2]: <https://www.qiuwenbaike.cn/wiki/长s>
+
+[^3]: <https://www.qiuwenbaike.cn/wiki/Ʀ>
+
+[^4]: <https://en.wikipedia.org/wiki/J>
+
+[^5]: <https://www.unicode.org/notes/tn27/>
+
+[^6]: <https://en.wikipedia.org/wiki/Ȣ>

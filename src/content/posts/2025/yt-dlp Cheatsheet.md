@@ -1,10 +1,10 @@
 ---
 title: yt-dlp Cheatsheet
 published: 2024-02-13
-updated: 2025-05-30
+updated: 2026-06-20
 tags: 
 - 工具
-abbrlink: yt-dlp-cheatsheet
+slug: yt-dlp-cheatsheet
 ---
 
 
@@ -21,9 +21,20 @@ yt-dlp $url --sub-lang danmuku --embed-metadata
 
 如果要加章节可以加上`--embed-chapters`，如果要下载分P视频用`-I`选项。
 
+Bash版函数：
+
 ```bash
 function downloadBilibili() {
 	yt-dlp $1 --sub-lang danmuku --embed-metadata
+}
+```
+
+Nushell版：
+
+```nushell
+# 下载B站视频
+def download-bilibili [url: string] {
+  yt-dlp $url --sub-lang danmaku --embed-metadata --embed-chapters --write-subs --cookies "C:/Users/admin/cookies.txt"
 }
 ```
 
@@ -54,9 +65,24 @@ yt-dlp $url --sub-lang lyrics --write-subs --embed-thumbnail --embed-metadata -o
 yt-dlp $url --parse-metadata "playlist_index:%(track_number)s" --add-metadata --embed-metadata --embed-thumbnail -o "%(title)s - %(creator)s.%(ext)s"
 ```
 
+Bash版函数：
+
 ```bash
 function downloadNetease() {
 	yt-dlp $1 --sub-lang lyrics --write-subs --embed-thumbnail --embed-metadata -o "%(title)s - %(creator)s.%(ext)s"
+}
+```
+
+Nushell版：
+
+```nushell
+# 下载网易云音乐
+def download-netease [url: string, --lyrics] {
+  if $lyrics {
+    yt-dlp $url --sub-lang lyrics --write-subs --embed-thumbnail --embed-metadata -o "%(title)s - %(creator)s.%(ext)s"
+  } else {
+    yt-dlp $url --embed-thumbnail --embed-metadata -o "%(title)s - %(creator)s.%(ext)s"
+  }
 }
 ```
 

@@ -57,7 +57,7 @@ export const themeConfig: ThemeConfig = {
     // table of contents for posts
     toc: true, // true, false
     // KaTeX math rendering
-    katex: false, // true, false
+    katex: true, // true, false
     // reduce motion
     reduceMotion: true, // true, false
   },

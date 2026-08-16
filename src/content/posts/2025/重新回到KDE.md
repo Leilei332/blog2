@@ -8,7 +8,7 @@ abbrlink: return-to-kde
 ---
 
 
-我之前在[](<#Debian 12重新体验>)提到过不用KDE的原因是Discover过于卡顿，现在决定用回KDE了。在Debian上用`tasksel`就可以很方便地安装KDE桌面。
+我之前在[Debian 12重新体验](../debian-12-on-laptop/)提到过不用KDE的原因是Discover过于卡顿，现在决定用回KDE了。在Debian上用`tasksel`就可以很方便地安装KDE桌面。
 
 :::note
 由于上一篇文章还没有写完，所以此文章仅记录与KDE配置有关的内容。
